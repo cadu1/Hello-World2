@@ -1,0 +1,11 @@
+.jquery-form .invalid-input{
+    border-color: #DD3622 !important;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(223, 140, 140, 0.6);
+
+}
+.jquery-form .error-msg{
+    color: #DD4B39 !important;
+    display: inline-block;
+    font-size: 11px;
+}
+

@@ -1,0 +1,80 @@
+#tela-configuracoes{
+    width: 800px;
+    border: none;
+    padding: 0;
+}
+.config-box{
+    max-height: 300px;
+    overflow-y: auto;
+}
+#tela-configuracoes > ul > li{
+    border: none;
+    background: none;
+}
+#tela-configuracoes > ul > li a{ outline: none !important; text-align: center;}
+#tela-configuracoes > ul > li a span{ display: block } 
+
+.display-config-list{
+    list-style-type: none;
+    margin: 0;
+}
+.display-config-list li{
+    padding: 3px 0;
+}
+.display-config-list li .edit{
+    float: right;
+    color: #08C;
+}
+.display-config-list li .edit:hover{ text-decoration: underline; }
+.display-config-list .config-label{
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+    padding: 0 4px;
+    
+}
+.display-config-list .config-data{
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+}
+
+.config-utilizacao{
+    border-bottom: 1px solid #f2f2f2;   
+}
+
+.config-utilizacao .config-utilizacao-label{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+}
+.config-utilizacao .config-utilizacao-desc{
+ display: block;   
+}
+
+.conteudo-form{
+    margin-left: 71px;
+    background: #F5F5F5;
+    padding: 5px;
+}
+.form-config-update{
+    width: 100%;
+}
+.form-config-update .label{
+    background: none;
+    color: #333;
+    text-shadow: none;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.badge-notificacoes{
+    padding: 5px;
+}
+.detalhesnotificacoes{
+    color: #08C !important;
+    text-decoration: underline;
+}
+.box-detalhesnotificacoes td.dados{
+    font-weight: bold;
+}

@@ -1,0 +1,510 @@
+#popup_container input[type='text']{
+    border-radius: 3px;
+}
+
+#popup_container select{
+    padding: 3px 3px 3px 0;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+/*    height: 25px;*/
+}
+.nl-obs{
+    width: 250px;
+    height: 50px;
+}
+
+#input_descricao_lancamento{
+    width: 480px;
+}
+#input_descricao_lancamento.autocomplete-input{
+    width: 455px;
+}
+#input_valor_lancamento,
+#input_data_lancamento,
+#ndocumento,
+#input_valor_lancamento_efetivo,
+#input_data_lancamento_efetiva{
+    width: 195px;
+}
+
+#td_lancamento_repeticao_esquerda{
+    width: 380px;
+}
+#popup_novo_lancamento select{
+    width: 130px;
+}
+
+#popup_novo_lancamento table,
+#edicao_lancamento_dados table{
+/*    border-spacing: 5px;*/
+    width: 560px;
+}
+#popup_novo_lancamento table td{
+/*    border: 1px solid red;*/
+}
+
+#popup_novo_lancamento input,
+#edicao_lancamento_dados  input {
+    vertical-align: middle;
+}
+
+#popup_novo_lancamento input[type='text'], 
+#popup_novo_lancamento select ,
+#edicao_lancamento_dados  input[type='text'], 
+#edicao_lancamento_dados  select {
+    font-size: 14px !important;
+    vertical-align: middle;
+    height: 24px;
+}
+
+#popup_novo_lancamento input[type='text'], 
+#edicao_lancamento_dados  input[type='text']{
+    /*Ie Hack*/
+    height/*\**/: 21px;
+    padding-top/*\**/: 6px;
+}
+
+#popup_novo_lancamento #select_repete_lancamento{
+    width: 80px;
+}
+#popup_novo_lancamento #select_email_lancamento,
+#popup_novo_lancamento #select_sms_lancamento{
+    width: 100px;
+}
+
+.preview-novo-lancamento{
+    width: 200px;
+    /*margin-left: 10px;*/
+    padding-left: 10px;
+    padding-top: 10px;
+    /*border-left:1px dashed #ccc;*/
+    float: left;
+    display: none;
+}
+
+.nl-lancamentos-grupo{
+    float: left;
+    margin-left: 5px;
+}
+
+.form-novo-lancamento-grupo{
+    /*background: #fbfbfb;*/
+    /*border: 1px solid #eee;*/
+    /*border-radius: 3px;*/
+}
+.form-novo-lancamento-grupo .btn-toolbar{
+    margin: 0;
+}
+#lancamento-grupo-saldo{
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    margin: 10px 0;
+}
+.nl-lancamentos-grupo .icon-trash{
+    cursor: pointer;
+    margin-left:6px;
+}
+.nl-lancamentos-grupo .icon-pencil{
+    cursor: pointer;
+}
+
+.panel-preview-novo-lancamento{
+    display: none;
+    margin-bottom: 5px;
+}
+.panel-preview-novo-lancamento .title-panel-preview{
+    font-size: 16px;
+    font-weight: bold;
+    color: #973030;
+}
+.panel-preview-novo-lancamento .title-panel-content table{
+    border-spacing: none;
+}
+.panel-preview-novo-lancamento .title-panel-content table td{
+    padding: 2px 0;
+}
+
+#linha_lancamento_repeticao{
+/*    display: none;*/
+}
+
+#linha_lancamento_repeticao td.dados{
+    background-color: #f9f9f9;
+    background-color: #F0F5F8;
+    padding: 7px 3px;
+    display: none;
+/*    border: 1px solid #f2f2f2;*/
+}
+
+#linha_lancamento_repeticao #input_repete_lancamento,
+#linha_lancamento_repeticao #input_primeira_parcela,
+#linha_lancamento_repeticao #input_repete_quantidade{
+    height: 15px;
+    width: 24px;
+}
+#linha_lancamento_repeticao #input_primeira_parcela,
+#linha_lancamento_repeticao #input_repete_quantidade{
+    width: 30px;
+}
+
+.label-descricao-deslocado{
+    vertical-align: top !important;
+    padding-top: 5px !important;
+}
+
+
+#td_checkbox_efetivado,
+#td_checkbox_conciliado{
+    padding-top: 10px;
+}
+#ajuda_autocompletes_off{
+    text-align: left; 
+    padding-top: 2px; 
+}
+#ajuda_autocompletes_on{
+    font-size: 11px;
+}
+#ajuda_autocompletes_on a,#ajuda_autocompletes_off a{
+    font-size: 9px; text-decoration: none;
+    color: #3C36CD;
+}
+#ajuda_autocompletes_on a:hover,#ajuda_autocompletes_off a:hover{
+    color: #FF4B01;
+}
+
+/*Edicao lancamento*/
+#edicao_lancamento_dados select{
+    width: 130px;
+}
+
+/*Efetivacao lancamento*/
+#titulo_efetivacao_lancamento{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+/*Nova categoria*/
+/*#popup_nova_categoria input[type='text'],
+#popup_nova_categoria select{
+    width: 200px;
+}
+#tela_mover_categoria select{
+    width: 150px;
+    margin-left: 10px;
+}
+
+#popup_nova_meta select{
+    width: 200px;
+    height: 22px;
+}*/
+
+.autocomplete-input{
+    background: url('../../../visao/img/autocomplete-arrow-down.png?2') right 5px no-repeat #fff;
+    padding-right: 25px;
+}
+.autocomplete-input:focus{
+    background: url('../../../visao/img/autocomplete-arrow-down.png') right -18px no-repeat #fff;
+}
+.autocomplete-input.loading{
+    background: url(../../../visao/img/uploading.gif) 99% center no-repeat #fff;
+}
+
+.autocomplete-wrapper{
+/*    position: relative;*/
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+/*    background: url(../../../visao/img/autocomplete-arrow-down-30x30.png) no-repeat;*/
+}
+
+.autocomplete-wrapper input{
+    border: none;
+    width: 160px !important;
+    padding-right: 6px !important;
+    background: url(../../../visao/img/arrow_down.png) right 10px no-repeat;
+}
+
+.autocomplete-button{
+    position:absolute;
+    top:0;
+    left:169px;
+/*    right :0 ;*/
+}
+
+.show_all_autocomplete{
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    border: none;
+    background: url(../../img/seta_baixo.png) no-repeat;
+    background: url(../../../visao/img/autocomplete-arrow-down-30x30.png) no-repeat;
+}
+.show_all_autocomplete:hover{
+    background-image: url(../../img/seta_baixo_over.png);
+    background: url(../../../visao/img/autocomplete-arrow-down-30x30-hover.png) no-repeat;
+}
+
+#popup_nova_conta .mais_info ,
+#popup_edicao_conta .mais_info {
+    display: none;
+}
+#info_banco_ajax img,
+#info_banco_ajax span{
+    vertical-align: middle;
+}
+/*Novo cartao de credito*/
+#mais_adicional,.menos_adicional,.habilitar_adicional{
+    font-size: 10px;
+}
+.caixa_excluir_mover{
+    display: none;
+}
+#select_plasticos,
+#select-fatura-novo-lancamento,
+#select_conta_saque{
+    width: 199px !important;
+    height: 30px !important;
+    font-size: 16px !important;
+}
+
+/*Pagamento cartao de credito*/
+#conta_pagamento{
+    width: 130px;
+    height: 25px;
+    font-size: 14px;
+}
+
+/*Lancamento cartao de credito*/
+#super-span-valor-parcela,#super-span-valor-total{
+    display: none;
+}
+#super-span-valor-parcela span,#super-span-valor-total span{
+    font-size: 12px;
+}
+
+/*Regras*/
+#nome_regra,
+#descricao-importacao{
+    width: 250px;
+}
+#disponibilidade_regra{
+    padding-left: 10px;
+    font-size: 11px;
+    display: inline-block;
+}
+#disponibilidade_regra.indisponivel{color: red;}
+#disponibilidade_regra.disponivel{color: green;}
+
+#popup_edicao_lote_importacao select{
+    height: 25px;
+    width: 165px;    
+}
+
+#anexar-comprovante,#anexar-comprovante-desfazer{
+    color:#3C36CD;
+    font-size: 11px;
+    position: relative;
+}
+#anexar-comprovante:hover,#anexar-comprovante-desfazer:hover{
+    color: #FF4B01;
+}
+
+#actions-comprovante{
+    position : absolute;
+    background : #fbfbfb;
+    border : 1px solid #ccc;
+    z-index: 9999;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    /*right: -88px;*/
+    /*top: -5px;*/
+}
+#actions-comprovante table{
+    position: relative;
+    border-spacing: 0;
+    width: auto !important;
+}
+#actions-comprovante table td{
+/*    color: rgb(19, 19, 141);*/
+    color: #3C36CD;
+    padding: 4px 5px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#actions-comprovante table td img{
+    
+    cursor: pointer;
+}
+#actions-comprovante table td:hover{
+    color: #FF4B01;
+}
+
+
+/*NOVOS CSS*/
+
+.cad-main-ul,.cad-main-ul ul{
+    outline: none;
+    margin: 0;
+}
+.cad-main-ul li{
+    list-style-type: none;
+}
+.cadastro-edicao td{padding: 4px 3px;}
+.cad-group-title{
+}
+.cad-group-title span{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+}
+.cad-label{
+    font-weight: bold;
+    color: #666;
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+.cad-data{
+    display: inline-block;
+    line-height: 16px;
+    /*line-height: 1px;*/
+    vertical-align: middle;
+    width: 310px;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.cad-bloco{
+    border-bottom: 1px dotted #e2e2e2;
+    padding-top: 10px;
+}
+.cad-data input,.cad-data label{
+    vertical-align: middle;
+}
+.cad-opcao{
+    padding-bottom: 7px;
+}
+.cad-input-text{
+    display: inline-block;
+    height: 18px;
+    float: left;
+    padding: 4px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #555;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+    -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+.cad-nl{
+    width: 440px;
+    float: left;
+}
+.cad-nl.cad-nl-grupo .cad-main-ul{
+    border-right: 1px dotted #e2e2e2;
+}
+.cad-nl.cad-nl-grupo .cad-main-ul.jspScrollable{
+    border-right: none;
+}
+.cad-nl .autocompleteselect-input {
+    width: 200px;
+}
+
+.nl-desc,.nl-ndoc{ width: 277px; }
+.nl-obs{ height: 50px;  width: 280px;}
+
+.cad-nl.preview{
+    border-right: 1px dotted #e2e2e2;
+}
+.cad-main-ul{
+    width: 440px;
+}
+select.nl-cadastro {
+    width: 207px;
+}
+
+.link-add{display: none; line-height: 25px;padding: 0 5px;}
+.nl-cadastro:focus + .link-add, .cad-opcao:hover .link-add{ display: inline-block; }
+
+
+.nl-obs:focus, .cad-input-text:focus{
+    border-color: #A8BDCC;
+    box-shadow: 0 0 6px #A8BDCC;
+    outline: 0 !important;
+}
+.nl-rep,.nl-nova-regra-box,.nl-parcela-desc,.nl-lancar-fatura,.notificacao-enviada,.nl-info-parc{
+    background-color:#F8F4F0; 
+    width: 277px;
+    margin-top: 5px; 
+    padding: 5px;
+    border-radius: 3px;
+}
+.nl-info-parc > select{
+    padding: 2px;
+    height: 22px;
+    width: auto;
+    max-width: 277px;
+}
+
+.nl-eh-valor-parc{
+    padding-left: 10px;
+}
+
+.nl-rep-label{
+    text-align: right;
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
+    padding-right: 4px;
+    
+}
+.nl-autocomplete-values{
+    display: none;
+}
+span.nl-noedit-value{
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.cad-categorias-contato .nome_categoria{width: 300px;}
+.cad-categorias-contato a{display: none;}
+.cad-categorias-contato tr:hover a{display: inline-block;}
+
+#ajuste-valor-grupo-lancamento{
+    min-width: 500px;
+}
+#ajuste-valor-grupo-lancamento > table{
+    width: 100%;
+}
+#ajuste-valor-grupo-lancamento > table td{
+    padding: 2px 3px;
+}
+#ajuste-valor-grupo-lancamento > table .linha-ajuste-saldo td{ text-align: right; }
+#ajuste-valor-grupo-lancamento > table .linha-ajuste-saldo .linha-ajuste-saldo-dados{
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 110px;
+}
+
+#link-detalhes-confirmacao-grupo{
+    color: #08C;
+    float: right;
+}
+#alert-valores-confirmacao-grupo td{
+    padding: 2px 5px;
+}
+#alert-valores-confirmacao-grupo .campo-valor{
+    width: 90px;
+    height: 18px;
+}
+#alert-valores-confirmacao-grupo #valor-confirmacao-grupo-saldo{
+    font-size: 14px;
+    font-weight: bold;
+}
+#alert-valores-confirmacao-grupo #linha-grupo-saldo td{
+    border-top: 1px solid #eee;
+}

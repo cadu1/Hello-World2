@@ -1,0 +1,132 @@
+.ui-widget-overlay{
+    background-color: #000;
+    opacity: .7;
+}
+
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+
+.jdialog{
+    /*background: #fff;*/
+    /*border: 1px solid #ccc;*/
+    /*box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);*/
+    border-radius: 3px;
+    min-width: 300px;
+    
+    /*NAO PODE SER HIDDEN POR CAUSA DOS AUTOCOMPLETES...
+    overflow: hidden;*/
+}
+.jdialog .ui-widget-header{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    border-radius: 0;
+}
+.jdialog .ui-widget-header .ui-dialog-title{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #666;
+    color: #973030;
+    margin: .4em 16px .1em 0;
+}
+.jdialog.ui-draggable .ui-widget-header .ui-dialog-title{
+    cursor: move;
+}
+.jdialog .ui-dialog-titlebar-close{
+    border: none;
+    outline: none;
+}
+
+.jdialog .ui-dialog-content{
+    font-size: 12px;
+    font-family: Arial;
+    min-height: 0 !important;
+    overflow: hidden;
+}
+
+.jdialog .ui-dialog-buttonpane{
+    text-align: center;
+    /*padding: 1px 1px 10px 1px;*/
+    /*background: #eee;*/
+    /*padding: 14px 15px 15px;*/
+    margin-bottom: 0;
+    text-align: right;
+    background-color: #F5F5F5;
+    border-top: 1px solid #DDD;
+/*    -webkit-box-shadow: inset 0 1px 0 #FFF;
+    -moz-box-shadow: inset 0 1px 0 #ffffff;
+    box-shadow: inset 0 1px 0 #FFF;*/
+    
+}
+
+.jdialog .ui-dialog-buttonpane .ui-dialog-buttonset{
+    float: none;
+}
+
+
+.jdialog label{
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: middle;
+    margin: 0;
+}
+.jdialog  input,.jdialog select{
+    margin: 0;
+    vertical-align: middle;
+}
+.jdialog .ui-button{
+    outline: none;
+}
+
+/*.jdialog input[type='text'], .jdialog textarea{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: none;
+}
+.jdialog input{
+    margin: 0;
+}
+.jdialog select{
+    padding: 3px 3px 3px 0;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    height: 25px;
+}*/
+
+/*.jdialog .ui-dialog-buttonpane button{
+    margin: 0 2px;
+    cursor: pointer;
+}*/
+/*.jdialog .ui-button{
+    
+    background: #ABC4D1;
+    border-radius: 2px;
+    
+    padding: 5px 10px;
+    -webkit-transition: border-color .218s;
+    -moz-transition: border .218s;
+    -o-transition: border-color .218s;
+    transition: border-color .218s;
+    
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.jdialog .ui-button span{ 
+    color: #244B66; 
+    font-weight: bold; 
+    font-family: Arial; 
+    font-size: 12px;
+    cursor: pointer;
+}
+.jdialog .ui-button:hover{
+    color: #333;
+    border-color: #999;
+    -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2) -webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    background: #9CB9C9; 
+}*/
+    

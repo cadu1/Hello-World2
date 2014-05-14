@@ -1,0 +1,51 @@
+#body {
+    min-height: 400px;
+}
+#links-ajuda{
+    
+}
+#links-ajuda > ul{
+    background: #f7f5fa;
+    border-radius: 5px;
+    padding: 10px 0;
+    /*position: fixed;*/
+    width: 270px;
+    list-style-type: none;
+    margin: 0 0 0 30px;
+    
+}
+#links-ajuda > ul > li > a{
+    display: block;
+    color: #716B7A;
+    padding: 5px 20px;
+    text-shadow: #FFF 0px 1px 0px;
+    cursor: pointer;
+}
+    
+#links-ajuda > ul > li a:hover{
+    background: #e8e8e8;
+    text-decoration: none;
+}
+#main-ajuda{position: relative;}
+
+#main-ajuda .ask{  }
+#main-ajuda .ask.active{ background: #f8f8f8; padding: 5px; border-radius: 5px;margin-bottom:5px;}
+#main-ajuda a.ask{ color: #750709; display: inline-block; font-size: 16px; margin: 5px 0;}
+
+#search{}
+#search.fixed{position: fixed;background: #fff; width: 100%; line-height: 128px;top: 42px;border-bottom: 1px dashed #CCC;}
+#search  .input-append{width: 300px; padding: 0;}
+#search  .input-append input{width: 100%; vertical-align: bottom;}
+#search  .input-append button{vertical-align: bottom;}
+
+
+#asks{margin-bottom: 20px;}
+
+.label.filter{
+    padding: 3px;
+    margin-right: 3px;
+}
+.label.filter .remove-filter{
+    margin-left: 3px;
+    cursor: pointer;
+}

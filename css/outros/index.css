@@ -1,0 +1,313 @@
+@import url('//fonts.googleapis.com/css?family=Open+Sans:400,300,600');
+
+.container-narrow{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.navbar-inner{
+    background: #750709;
+    border: none;
+    border-radius: 0;
+    filter: none;
+}
+.navbar .navbar-inner .nav .link{
+    color: #fff;
+    text-shadow: none;
+    height: 56px;
+    padding: 50px 15px 0 15px;
+    transition: all 0.15s ease-out 0s;
+    text-transform: uppercase;
+}
+.navbar .navbar-inner .nav .link:hover{
+    background: #550709;
+    color: #fff;
+    border-bottom: 5px solid #FAA732; 
+    height: 51px;
+}
+
+.navbar .navbar-inner .nav #login-li{
+    padding: 0 20px;
+}
+.navbar .navbar-inner .nav #login{
+    color: #fff;
+    text-shadow: none;
+    margin-top: 38px;
+    background: #FAA732;
+    transition: all 0.15s ease-out 0s;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.navbar .navbar-inner .nav #login:hover{
+    background: #DF9125;
+}
+
+.navbar.navbar-fixed-top .navbar-inner .nav .link{
+    height: 26px;
+    padding: 17px 15px 0 15px;
+    
+}
+.navbar.navbar-fixed-top .navbar-inner .nav #login{
+    margin: 10px 0 8px 0;
+    padding: 5px 12px;
+}
+
+.navbar .navbar-inner #logo{
+    padding: 0;
+    width: 230px;
+    height: 106px;
+    background: url(../../../visao/img/index-logo.png) no-repeat;
+}
+.navbar.navbar-fixed-top .navbar-inner #logo{
+    width: 280px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../../../visao/img/logobgfixed.png) no-repeat;
+}
+
+
+#header{
+    /*margin-top: 130px;*/ 
+    padding: 0;
+    /*border-bottom: 1px solid #ccc;*/
+    
+}
+#header h1{
+    /*font-family: 'Open Sans';*/
+    color: #750709;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Open Sans',Arial;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+}
+
+
+
+#signup{
+    display: inline-block;
+    width: 320px;
+    /*height: 400px;*/
+    border-radius: 5px 5px 0 0;
+    background: #fff;
+    background: #fafafa;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    margin-bottom: -1px;
+}
+#signup form{
+    padding: 0 20px;
+}
+#signup .form-title{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 8px 0 5px 20px;
+    border-bottom: 1px solid #DDD;
+}
+
+#signup p{
+    font-family: 'Open Sans',Arial;
+    font-size: 11px;
+    text-align: justify;
+}
+#signup input[type='text'],
+#signup input[type='password']{
+    width: 265px;
+    height: 25px;
+}
+#signup select{
+    width: 278px ;
+    
+}
+#signup button[type='submit']{
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#slideshow-outer{
+    position: relative;
+}
+#slideshow{
+    margin-left: 50px;
+    top: 0;
+    display: inline-block;  
+    position: absolute;
+    width: 600px;
+}
+#slideshow #slideshow-data{
+    position: absolute;
+    top: 57px;
+    left:73px;
+    background: #333;
+    width: 455px;
+    height: 270px;
+    overflow: hidden;
+}
+
+#slideshow  #slideshow-base{
+    margin: 20px 0 0 0;
+    vertical-align: initial;
+}
+
+#slideshow p{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 25px;
+    display: none;
+}
+
+
+
+#testimonials{
+    border-top: 1px solid #ccc;
+    background: #fafafa;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+
+.testimonials{
+    margin: 0 0 30px 0;
+}
+.testimonial{
+    /*border: 1px solid #e8e8e8;*/
+    border-radius: 3px;
+    /*box-shadow: 0 0 3px #ccc;*/
+    padding: 25px 10px 0 ;  
+}
+.testimonial .test{
+    line-height: 30px;
+    font-family: 'Open Sans', Arial,serif;
+}
+.testimonial > .icon{
+    font-size: 20px;
+    color: #aaa;
+}
+.testimonial > .sign{
+    font-size: 11px;
+    display: block;
+    text-align: right;
+}
+
+
+#general .featurette-heading{
+    font-family: 'Open Sans',Arial;
+    font-size: 34px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;color: #750709;
+}
+#general .lead{
+    font-family: 'Open Sans',Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+}
+
+#general .lead strong{
+    font-weight: 300;
+}
+
+.featurette-divider {
+ margin: 40px 0; /* Space out the Bootstrap <hr> more */
+ position: relative;
+}
+
+.featurette {
+ padding-top: 120px;  
+ overflow: hidden;  
+}
+.featurette-image {
+ margin-top: -120px;  
+}
+
+.featurette-image.pull-left {
+ margin-right: 40px;
+}
+.featurette-image.pull-right {
+ margin-left: 40px;
+}
+/*
+.featurette p{
+   
+}
+ Thin out the marketing headings 
+.featurette-heading {
+ font-size: 50px;
+ font-weight: 300;
+ line-height: 1;
+ letter-spacing: -1px;
+ color: #750709;
+}*/
+
+.links-mobile{
+    width: 137px;
+    height: 37px;
+    display: inline-block;
+    background: url(../../../visao/img/linksmobilesprite.jpg) no-repeat;
+    margin-right: 20px;
+}
+.links-mobile.iphone{
+    background-position: -135px 0;
+}
+
+
+#features{
+    margin-top: 30px;
+    padding: 30px 0;
+    /*padding: 0 0 20px 0;*/
+    text-align: center;
+    background: #fafafa;
+}
+#features h1{
+    padding: 20px 0 ;
+}
+.features{
+    /*border: 1px solid red;*/
+    color: #666;
+    margin-bottom: 20px;
+    transition: all 0.15s ease-out 0s;
+    cursor: default;
+}
+.features:hover{
+    color: #750709;
+}
+.features .features-icon{
+    /*border: 1px solid blue;*/
+}
+.features .features-title{
+    /*border: 1px solid blue;*/
+    text-align: left;
+    font-weight: bold;
+}
+.features .features-desc{
+    /*border: 1px solid blue;*/
+    text-align: left;
+    font-size: 12px;
+}
+
+
+#social{
+    text-align: center;
+    padding: 30px 0;
+}
+
+#footer{
+    background: #58585B;
+    padding: 50px 0;
+    color: #fff;
+}
+#footer a{color: #fff;}
+
+.footer-divider{
+    border-top: 1px solid #7E7E7E;
+    margin: 20px 0;
+}

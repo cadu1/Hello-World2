@@ -1,0 +1,24 @@
+.detailed{
+    cursor: pointer;
+}
+.detailed_table{
+    border-spacing: 0;
+}
+.detailed_table tr td{
+    font-size: 12px;
+    vertical-align: middle;
+}
+.detailed_label{
+    font-weight: bold;
+    text-align: right;
+    padding: 5px;
+}
+.detailed_data{
+    text-align: left;
+    padding: 0 5px;
+    max-width : 300px;
+}
+.detailed_action img{
+    margin-left: 5px !important;
+    display: inline-block !important;
+}

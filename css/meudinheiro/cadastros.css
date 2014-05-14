@@ -1,0 +1,100 @@
+.cadastros-actions{
+    width: 200px;
+    text-align: right !important;
+}
+h4.cadastro-novo:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.cadastro-exclusao-destino{
+    display: none;
+}
+
+/*ESPECIFICO CATEGORIAS*/
+.cadastro-categorias{ width: 100%;}
+.cadastro-categorias th{
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    color: #666;
+    vertical-align: middle;
+}
+.cadastro-categorias th span{
+    display: inline-block;   
+    vertical-align: middle;
+    cursor: pointer;
+}
+.cadastro-categorias .cadastro-categorias-grupo-tipo{ width: 50%; padding: 0;vertical-align: top;}
+.cadastro-categorias .cadastro-categorias-grupo-tipo .col-actions{text-align: right;}
+.cadastro-categorias .cadastro-categorias-grupo-tipo .col-actions .sf-menu ul{
+    left: -130px;
+    text-align: left;
+    width: 150px;
+}
+.cadastro-categorias ul{ margin: 0; }
+.cadastro-categorias ul li{ list-style-type: none;}
+.lista-filhos{padding-left: 20px;}
+
+/*#tablecategorias th{
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    color: #666;
+    vertical-align: middle;
+}
+#tablecategorias th span{
+display: inline-block;   
+    vertical-align: middle;
+    cursor: pointer;
+    background-position-y: -189px !important; 
+}*/
+/*.grupo-categoria{
+    width: 50%;
+    vertical-align: top;
+    padding-left: 5px;
+}*/
+.linha-categoria table{
+    border-spacing: 0;
+    width: 100%;
+}
+.linha-categoria table td{
+    font-size: 12px;
+    font-weight: normal;
+}
+.linha-categoria tr:hover td{
+    background-color: #f5f5f5;
+}
+.linha-categoria tr:hover td.botao{
+    /*display: table-cell;*/
+}
+
+.linha-categoria table td.nivel{
+    width: 16px;
+    display: table-cell;
+    background-position-y: -189px !important;
+}
+.linha-categoria table td.nivel.has{
+    cursor: pointer;
+}
+
+.linha-categoria table td.nome{
+    padding-left: 5px;
+}
+.linha-categoria td.table-actions .sf-menu ul{
+    width: 170px;
+    left: -150px;
+}
+.linha-categoria.filho table td.nome{
+    padding-left: 20px;
+}
+
+
+.linha-categoria .col-actions .sf-menu > li > i{
+    height: 19px;   
+}
+.celula-cor{
+    position: relative;
+    width: 80px;
+    height: 20px;
+    border-radius: 3px;
+}

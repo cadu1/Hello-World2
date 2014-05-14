@@ -1,0 +1,54 @@
+#tela_conciliacao{float:left; width: 100%; }
+#ferramentas_conciliacao{float:left; width:100%;}
+#ferramentas_conciliacao a{margin: 3px;}
+
+#lista_ultimos_extratos{float: left;width: 100%; margin-top: 5px;}
+#lista_ultimos_extratos table{float: left;width: 100%; border-spacing: 0;}
+
+#lista_ultimos_extratos table td{padding: 5px; font-size: 12px;}
+#lista_ultimos_extratos table th{border-bottom: none !important;}
+
+#lista_ultimos_extratos table td.data{text-align: center; }
+#lista_ultimos_extratos table td.saldo{text-align: right;}
+
+
+
+#escolha_conta_importacao{border: 1px solid #d2d2d2; background: #fcfcfc;margin-top: 5px; border-radius: 3px; color: #333;}
+#escolha_conta_importacao div{text-align: center; padding: 5px; font-weight: bold; font-size: 14px; color: #244B66;}
+#select_importar{width: 200px; }
+
+
+
+
+#info-extrato-importado{ border-bottom:1px solid #e8e8e8; }
+#info-extrato-titulo{font-size: 18px; font-weight: bold; color: #333;margin: 5px;}
+#info-extrato-importado table {margin: 5px; }
+#info-extrato-importado table tr td.label-info-extrato{font-size: 12px; font-weight: bold;color: #333;}
+#info-extrato-importado table tr td.dados-info-extrato{padding: 0 10px; vertical-align: middle;}
+#info-extrato-importado table tr td.dados-info-extrato input{margin: 0; vertical-align: middle;}
+#info-extrato-importado table tr td.dados-info-extrato label{font-size: 12px; vertical-align: middle; display: inline-block;margin: 0;}
+.info-extrato-data{width: 80px;}
+#campo-saldo-extrato{width: 120px;}
+
+.caixa-lancamentos-conciliacao{float: left; width: 42%; }    
+
+#area-conciliacao .tabela-conciliacao{float: left; width: 100%; border-spacing:0;}
+
+#area-conciliacao .tabela-conciliacao tr td.titulo-caixa-importacao{vertical-align: middle; }
+
+#quadro_relacionamento_conciliacao{float: left; width: 15.5%; margin-top: 30px; }
+
+#area-conciliacao .titulo-caixa-importacao{border-bottom:1px solid #e2e2e2;padding: 0 0 3px 0;font-weight: bold; color: #333;font-size: 12px; vertical-align: middle; height: 25px;}
+#area-conciliacao .titulo-caixa-importacao .button{vertical-align: top;}
+
+.campo-data-lancamentos-sistema{width: 80px;margin: 0 !important; padding: 2px !important;}
+
+.informacoes-lancamento-conciliacao{ border-spacing: 0; float: left; width: 100%}
+.informacoes-lancamento-conciliacao tr td{font-size: 12px; padding: 3px;}
+.informacoes-lancamento-conciliacao tr td label{display: block; font-size: 12px;margin: 0;}
+.informacoes-lancamento-conciliacao tr.par td {background: #f5f5f5;}
+.informacoes-lancamento-conciliacao .coluna-descricao{ text-align: left !important;}
+.informacoes-lancamento-conciliacao .coluna-data{ text-align: center; width: 65px; }
+.informacoes-lancamento-conciliacao .coluna-valor{ text-align: right !important; width: 65px; padding: 3px 5px !important;}
+.informacoes-lancamento-conciliacao .coluna-radio{ width: 10px;padding: 0 !important;}
+.informacoes-lancamento-conciliacao .coluna-radio input{ margin: 0; }

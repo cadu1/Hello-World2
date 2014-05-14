@@ -1,0 +1,67 @@
+#links-ajuda{
+    margin-top: 10px;
+}
+#links-ajuda > ul{
+    background: #f7f5fa;
+    border-radius: 5px;
+    padding: 10px 0;
+    position: fixed;
+    /*width: 270px;*/
+    list-style-type: none;
+    margin: 0 0 0 30px;
+    outline: none;
+    
+}
+#links-ajuda > ul li > a{
+    display: block;
+    color: #716B7A;
+    padding: 5px 10px;
+    text-shadow: #FFF 0px 1px 0px;
+}
+#links-ajuda > ul li > ul{
+    list-style-type: none;
+    margin: 0 0 0 0;
+}
+#links-ajuda > ul li > ul > li >a{
+    display: block;
+    color: #716B7A;
+    padding: 2px 0 2px 20px;
+    text-shadow: #FFF 0px 1px 0px;
+}
+    
+#links-ajuda > ul li a:hover{
+    background: #e8e8e8;
+    text-decoration: none;
+}
+#main-ajuda section{
+    padding-top: 30px;
+}
+#main-ajuda section h1{
+    font-family: 'Noticia Text', serif;
+    color: #750709;
+}
+#main-ajuda section h3{
+    font-family: 'Noticia Text', serif;
+    color: #333;
+}
+
+#main-ajuda section img{
+     border: 1px solid #ddd; 
+     border-radius: 5px; 
+     box-shadow: 0 0 3px #ccc;
+}
+
+
+.badge.badge-status{padding: 1px 5px; font-size: 9px;line-height: 13px;}
+.badge.Pendente{ background-color: #AA4643; }
+.badge.Agendado{ background-color: #4572A7; }
+.badge.Confirmado{ background-color: #090; }
+.badge.Conciliado{ background-color: #9B23CA; }
+.badge.Aberta{ background-color: #44CDD3; }
+.badge.Fechada{ background-color: #333; }
+
+
+
+@media (max-width: 768px) {
+    #links-ajuda { display:none; } 
+}

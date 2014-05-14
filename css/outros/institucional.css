@@ -1,0 +1,38 @@
+body{
+    background: #f2f2f2;
+    overflow-y: scroll;
+}
+
+#lateral-institucional{
+    position: fixed;
+    top: 90px;
+    width: 200px;
+    
+}
+
+#lateral-institucional ul{
+    list-style-type: none;
+    margin: 0;
+}
+#lateral-institucional ul li a{
+    display: block;
+    padding: 10px 20px;
+    color: #888;
+}
+#lateral-institucional ul li a:hover{
+    color: #750709;
+}
+#lateral-institucional ul li a.selected{
+    background: #fff;
+    color: #750709;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+#lateral-institucional ul li a.selected:hover{
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    #lateral-institucional{ display:none; } 
+}

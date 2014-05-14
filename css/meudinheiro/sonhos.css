@@ -1,0 +1,175 @@
+#painel-sonhos{
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+#painel-sonhos-center{
+    /*border: 1px solid green;*/
+    text-align: left;
+    margin: 0 auto;
+}
+.painel-sonho{
+    /*border: 1px solid #E2EAEF;*/
+    border: 1px solid #e8e8e8;
+    width: 280px;
+    border-radius: 5px;
+    margin: 10px 10px 0 0;
+    display: inline-block;
+}
+.painel-sonho>table{
+    border-spacing: 0;
+    width: 100%;
+}
+.painel-sonho>table td{
+    
+}
+.painel-sonho>table td{
+    font-size: 13px;
+    padding: 5px;
+    /*background: #fdfdff;*/
+}
+.painel-sonho-nome{
+    text-align: center;
+    font-size: 18px !important;
+    padding: 10px 5px 5px 5px !important;
+    font-family: 'Open Sans',Arial;
+}
+.painel-sonho-perc{
+    padding: 10px 5px;
+    /*border-bottom: 1px solid #f2f2f2;*/
+}
+.painel-sonho-label{
+    color: #777;
+    width: 80px;
+    text-align: right;
+}
+.painel-sonho-dados{
+    /*font-weight: bold;*/
+}
+
+.painel-sonho-acao{
+    padding: 5px;
+    /*background: #F8F4F0 !important;*/
+    background: #f8f8f8;
+    text-align: right;
+    height: 22px;
+    padding: 0 !important;
+    text-align: center;
+}
+.painel-sonho-acao a{
+    font-size: 12px;
+    padding: 5px;
+    display: inline-block;
+}
+
+#tela-detalhes-sonho{
+    width: 500px;
+}
+#cabecalho-detalhes-sonho{
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #EEE;
+    
+}
+#cabecalho-detalhes-sonho-gerais{
+    float: left; 
+    width: 219px; 
+    border-right: 1px dashed #EEE;
+    padding: 5px;
+    height: 90px;
+}
+
+#cabecalho-detalhes-sonho-saldo{
+    float: left; 
+    width: 260px; 
+    padding: 5px;
+    height: 70px;
+}
+#cabecalho-detalhes-sonho-saldo table{
+    width: 100%;
+}
+#cabecalho-detalhes-sonho-saldo td{
+    text-align: center;
+    font-size: 24px;
+    color: #888;
+    font-weight: bold;
+}
+#cabecalho-detalhes-sonho-gerais td{
+    padding: 2px 3px;
+}
+.detalhe-sonho-label{
+    font-weight: bold;
+    color: #666;
+    text-align: right;
+}
+.detalhe-sonho-dado{
+    text-align: left;
+}
+
+#lancamentos-sonho{
+    max-height: 300px;
+    overflow: auto;
+}
+
+.cad-ns .cad-main-ul{ width: 350px; }
+.cad-ns .cad-main-ul .cad-data{ width: 240px; }
+
+#novo-sonho-contas{
+    width: 190px;
+}
+#novo-sonho-taxa{
+    width: 40px;
+}
+
+#novo-sonho-sugestao-aplicacao{
+    background-color:#F8F4F0; 
+    border-radius: 3px;
+    width: 190px;
+    padding: 5px;
+}
+#novo-sonho-sugestao-aplicacao > span {
+    display: none;
+}
+#novo-sonho-sugestao-aplicacao-valor{
+    text-align: center;
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.novosonho-conta-box,#sonho-exibe-saldo-conta{
+    display: block;
+    background-color:#F8F4F0; 
+    border-radius: 3px;
+    width: 190px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#sonho-exibe-saldo-conta{
+    margin: 5px 0 0 0 !important;
+}
+.novosonho-conta-info{
+    font-size: 11px;
+    font-weight: bold;
+    color: #555;
+    
+}
+.novosonho-conta-saldo{
+    width: 80px;
+}
+
+#select-sonho-contas{
+    width: 170px;
+}
+
+#novo-lancamento-sonho-detalhe{
+    color: #3C36CD;
+}
+#novo-lancamento-sonho-detalhe:hover{
+    color: #FF4B01;
+    text-decoration: underline;
+}
+
+.lancamentos-sonhos .col-actions .sf-menu ul{
+    left: -95px;
+    top: -105px;
+}

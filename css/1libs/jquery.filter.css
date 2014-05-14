@@ -1,0 +1,71 @@
+.filter-manager{
+    /*border-top: 1px solid #ccc;*/
+    /*border-bottom: 1px solid #ccc;*/
+    display: none;
+    background: #fafafa;
+    margin-top: 5px;
+    padding: 0 5px;
+    border: 1px solid #E9E9E9;
+}
+table.filter-buttons{
+    /*margin-top: 5px;*/
+    width: 100%;
+}
+table.filter-buttons .filtrar-por-label{
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: bold;
+    width: 65px;
+}
+table.filter-buttons td{
+    vertical-align: top;
+    padding-top: 5px;
+    line-height: 30px;
+}
+table.filter-buttons td .filter-button{
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.filter-list{
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 200px;
+}
+.filter-list > li a{
+    font-size: 12px;
+    padding: 2px 10px;
+}
+
+
+.filter-list > li.filter-inverse,
+.filter-list > li.filter-xor{padding: 0 0 3px 10px;}
+.filter-list > li.divider{margin: 0 1px;}
+.filter-list > li.filter-xor label,
+.filter-list > li.filter-inverse label{margin: 0; font-size: 12px;}
+
+.tooltip{z-index: 100;}
+.active-filter{
+    margin-right: 3px;
+}
+.filter-remove{
+    padding-left: 3px;
+    cursor: pointer;
+}
+.active-filter-group{ display: none; }
+
+.active-filter-group > div{ display: inline-block; }
+
+.active-filter-group-label{
+    font-weight: bold;
+    font-size: 11px;
+    padding-right: 3px;
+    min-width: 100px;
+    text-align: right;
+}
+
+.filter-data,.filter-preload{ display: none !important; }
+
+.filter-group-inverse-label{  }
+
+.filter-empty{ font-size: 18px; font-weight: bold; }

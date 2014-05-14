@@ -1,0 +1,41 @@
+@import url("//fonts.googleapis.com/css?family=Simonetta");
+
+#make-depo-box{
+    background: #fbfbfb;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+#make-depo-box.sent{
+    background: #FFF188;;
+}
+
+#make-depo{
+    resize: none;
+    width: 99%;
+    margin: 0 0 10px 0;
+    
+}
+
+
+make-depo-send{
+    
+}
+
+.testimonial{
+    border-bottom: 1px solid #f2f2f2;
+    padding: 30px 10px;
+}
+.testimonial .test{
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #555;
+    font-family: 'Simonetta', cursive;
+}
+.testimonial i{
+    color: #888;
+}
+.testimonial .sign{
+    display: block;
+}

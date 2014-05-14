@@ -1,0 +1,24 @@
+.multiple-select-item-choosen{
+    border: 1px solid #B6C3D6;
+    display: inline-block;
+    padding: 3px 4px;
+    border-radius: 3px;
+    background: #E7EBF1;
+    margin-right: 4px;
+}
+.multiple-select-item-choosen-name{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 11px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #555;
+}
+.multiple-select-item-choosen-del{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('close.png') no-repeat center center;
+    vertical-align: middle;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+body{ overflow-y: scroll; }
+
+#form-cadastro {
+    /*background: #fafafa;*/
+    font-size: 12px;
+    border-radius: 5px;
+}
+#form-cadastro p{
+    padding: 10px;
+}
+#form-cadastro label{
+    cursor: default;    
+    font-size: 12px;
+}
+#form-cadastro .control-group{
+    margin-bottom: 10px;
+}
+
+#right-box {
+    margin-top: 60px;
+}
+#right-box > div{
+    background: #fafafa;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+}
+#right-box > div > p{
+    font-size: 34px;
+    line-height: 60px;
+    font-family: 'Noticia Text';
+    color: #555;
+}
+#right-box > div > p > span{    
+    font-size: 46px;
+    font-weight: bold;
+    color: #F7941D;
+    /*border: 1px solid red;*/
+}
+
+#right-box > i{
+    font-size: 11px;
+}

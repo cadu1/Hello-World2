@@ -1,0 +1,186 @@
+
+
+#relatorio-header{
+    padding: 4px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #e8e8e8;
+}
+#relatorio-header.fixed{
+    position: fixed;
+    background: #fff;
+    padding: 5px;
+    top: 45px;
+    box-shadow: 0 2px 3px #bbb;
+    z-index: 10;
+    border-radius: 0 0 3px 3px;
+    border: none;
+}
+
+#relatorio-header > span{ vertical-align: middle;}
+#relatorio-header > button{ vertical-align: bottom;}
+#relatorio-header .relatorio-nome{
+    font-size: 16px;
+    /* font-weight: bold; */
+    font-family: 'Open Sans',Arial;
+    color: #555;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+#relatorio-header select.relatorio-data{
+    width: 130px;
+    
+}
+#relatorio-header input.relatorio-data{
+    padding: 3px ;
+    margin: 0;
+    vertical-align: top;
+    height: 18px;
+}
+#relatorio-header select{margin: 0; height: 26px;padding: 2px;vertical-align: top;}
+
+.linha_totais_grupo td {
+    text-align: right;
+    background: #fdfdfd;
+    border-top: 1px dashed #eee;
+    border-bottom: 1px dashed #eee;
+}
+.relatorio-evolucao-cat{border-collapse: collapse;}    
+.relatorio-evolucao-cat .display-chart {margin-left: 5px;cursor: pointer;}
+
+/*TOTAIS*/
+.relatorio-totais-box-total{
+    /*border: 1px solid blue;*/
+    height: 330px;
+    margin-bottom: 10px;
+}
+
+.relatorio-totais-box-title{
+    font-size: 16px;
+    font-weight: bold;
+    background: #fbfbfb;
+    text-align: center;
+    padding: 5px 0;
+    /*height: 20px;*/
+}
+.relatorio-totais-box-title > span{
+    font-size: 14px;
+}
+.relatorio-totais-box-total .relatorio-totais-grafico{
+    /*height: 300px;*/
+    float:left;
+    width: 50%;
+}
+.relatorio-totais-box-total .relatorio-totais-dados{
+    margin-left: 50%;
+    height: 300px;
+    overflow-y: auto;
+    
+    /*Firefox hack for jspcontainer*/
+    max-width: 50% !important;
+}
+.relatorio-totais-resumo{
+    background: #fdfdfd;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.relatorio-totais-resumo table{
+    float: right;
+}
+.relatorio-totais-resumo table td{
+    padding: 3px 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.relatorio-totais-resumo table td.dados_rodape{
+    text-align: right;
+}
+
+
+/*#relatorios_categorias .quadro-detalhamento{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}*/
+
+.quadro-detalhamento ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+
+.quadro-detalhamento ul li.loading{
+    background: url(../../../visao/img/uploading.gif) rgb(251, 252, 245) center center no-repeat ;
+    height: 20px;
+}
+
+.quadro-detalhamento ul.closed > li.linha-lancamento,
+.quadro-detalhamento ul.closed ul{
+    display: none;
+}
+
+.quadro-detalhamento li table{
+    width: 100%;
+    border-spacing: 0;
+}
+.quadro-detalhamento li table td{
+    font-size: 12px;
+    padding: 3px 3px;
+/*    border: 1px solid red;*/
+}
+
+.quadro-detalhamento tr.header td{
+    /*background: #f8f8f8;*/
+    font-weight: bold;
+    color: #555;
+    border-bottom: 1px solid #555;
+}
+
+.quadro-detalhamento .coluna-nome{
+    
+}
+.quadro-detalhamento .linha-lancamento td{
+    font-size:11px;
+    font-style: italic;
+}
+.quadro-detalhamento .linha-subcategoria .coluna-nome,
+.quadro-detalhamento .linha-lancamento .coluna-nome{
+    padding-left: 20px;
+}
+
+.quadro-detalhamento .linha-lancamento .nome-subcat{
+    padding-left: 40px !important;
+}
+
+.quadro-detalhamento .coluna-quantidade,
+.quadro-detalhamento .coluna-porcentagem{
+    width: 60px;
+    text-align: center;
+}
+
+.quadro-detalhamento .coluna-valor{
+    text-align: right;
+    width: 80px;
+}
+
+.quadro-detalhamento .linha-categoria td{
+    /*font-weight: bold;*/
+    color: #555;
+    cursor: pointer;
+}
+
+.relatorio-evolucao-cat .coluna-categoria{
+    width: 160px;
+}
+
+.title-contas-pagar-receber{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Open Sans',Arial,sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0;
+}

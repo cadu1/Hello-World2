@@ -1,0 +1,157 @@
+ 
+#info-panel{
+    margin-top: 100px;
+    position: relative;
+}
+#info-panel h2{
+    font-size: 24px;
+    font-family: 'Open Sans',Arial;
+    margin-top: 0;
+}
+#info-panel img.img-border{
+    border: 1px solid #ccc; 
+    margin: 0 20px 10px 0;
+}
+#right-panel{
+    position: absolute;
+    right:0;
+    height: 100%;
+    background: #f8f8f8;
+    border-left: 1px solid #ddd;
+}
+
+#error-login{
+    display: none;
+    
+    text-align: center;
+    font-weight: bold;
+    width: 315px;
+    border:1px solid #CD0A0A;
+    background: #FFF7F4;
+    /*margin: 30px auto -50px auto;*/
+    padding: 10px 0;
+    /*border-radius: 5px;*/
+    color: #CD0A0A;
+}
+ 
+.login-wrapper {
+    margin: 100px auto;
+    width: 315px;
+    /*border: 1px solid red;*/
+    position: relative;
+}
+.login-wrapper >h3{
+    text-align: left;
+    border-bottom: 1px solid #EEE;
+    color: #333;
+    font-family: 'Open Sans',Arial;
+    font-size: 24px;
+}
+
+.login-content{
+    /*border: 1px solid #ddd;*/
+    /*background: #fafafa;*/
+    margin-top: 10px;
+    z-index: 999;
+    bottom: 0;
+    
+}
+
+#login-form{
+    margin: 0;
+}
+#login-form >table{
+    width: 100%;
+}
+.login-label{
+    text-align: left;
+    font-weight: bold;
+    font-size: 13px;
+}
+.login-data{text-align: left;}
+.login-data input{
+    width: 300px;
+    padding: 6px;
+    border-radius: 0;
+}
+#login-form label{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+#lembrar{
+    margin: 0;
+}
+tr.separator td{
+    text-align: center;
+    overflow: hidden;
+}
+tr.separator div.line{
+    display: inline-block;
+    height: 1px;
+    border-bottom: 1px solid #ddd;
+    width: 140px;
+    vertical-align: middle;
+}
+tr.separator div.sep-text{
+    display: inline-block;
+    color: #aaa;
+    text-transform: uppercase;
+}
+.login-alt{
+    display: inline-block;
+    height: 65px;
+    width: 70px;
+    margin: 0 10px;
+    background: url(../../../visao/img/login-alt.png) no-repeat;
+     opacity: .85;
+     cursor: pointer;
+}
+.login-alt:hover{
+    opacity: 1;
+}
+.login-alt.facebook{background-position: 0 0;}
+.login-alt.google{background-position: -190px 0;}
+
+.error-msg{
+    font-size: 11px;
+    color: #DD3622;
+    font-weight: bold;
+    margin-top: -10px;
+    display: block;
+}
+.invalid-input{
+     border-color: #DD3622 !important;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(223, 140, 140, 0.6);
+}  
+
+#cadastrese{
+    text-align: center;
+    font-size: 12px;
+    width: 315px;
+    padding-top: 5px;
+}
+
+#esqueci{ 
+    margin-bottom: 3px;
+    font-weight: normal;
+    float: right;
+    font-size: 11px;
+}
+#esqueci:hover{ text-decoration: underline; }
+
+
+/*
+@media (max-width: 767px) {
+    .login-wrapper {
+        width: 350px; } 
+    tr.separator div.line{width: 46%;}
+}*/
+
+@media (max-width: 480px) {
+    .login-wrapper { width: 95%; } 
+    .login-data input{ width: 90%;}
+    tr.separator div.line{width: 42%;}
+    
+    #error-login{width: 95%;}
+}

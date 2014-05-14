@@ -1,0 +1,146 @@
+#alert-importacao{
+    width: 500px;
+}
+
+#tipo-importacao{
+    background: #E2EAEF;
+    border: 1px solid #d2d2d2;
+    text-align: center;
+    margin: 4px 0;
+    border-radius: 3px;
+}
+#tipo-importacao table{
+    border-spacing: 0;
+    width: 100%;
+}
+#tipo-importacao table td{
+    padding: 3px 0;
+}
+#tipo-importacao input,
+#tipo-importacao label{
+    vertical-align: middle;
+    margin: 0;
+}
+
+.ajuda_importacao{width: 450px; text-align: justify; padding: 0; margin: 0;}
+
+
+#imp-importacao table {border-spacing: 0; width: 100%; border: 1px solid #ccc; border-radius: 3px;}
+#imp-importacao table td {border-spacing: 0; width: 33%;}
+#imp-importacao table td a{display: block; padding: 5px 0 5px 30px; border: 1px solid transparent;}
+#imp-importacao a.xls{background: url(../../../res/icon-imp.png) 4px -28px no-repeat;}
+#imp-importacao a.xlsx{background: url(../../../res/icon-imp.png) 4px 2px no-repeat;}
+#imp-importacao td a:hover{background-color: #e8e8e8; text-decoration: underline;}
+
+
+#area-importacao{}
+#area-importacao .celula-lancamento-importacao{border: 1px solid #e8e8e8; margin: 5px 0;}
+
+#area-importacao .celula-lancamento-importacao td{padding: 3px 3px;}
+
+.celula-lancamento-importacao table{ border-spacing: 0px;}
+/*.celula-lancamento-importacao table td{ border: 1px solid #333;}
+.celula-lancamento-importacao table td span{ border: 1px solid #333;}*/
+.celula-lancamento-importacao table tr td.dados-importacao{font-size: 12px; color: #333; text-align: left;padding: 0 10px; vertical-align: middle;}
+.celula-lancamento-importacao table tr td.label-importacao{font-size: 12px; font-weight: bold;color: #333; text-align: center;}
+.celula-lancamento-importacao table tr td span.dados{padding: 0 10px; vertical-align: middle; }
+.celula-lancamento-importacao table tr td.dados input{margin: 0; vertical-align: middle; font-size: 12px;}
+.celula-lancamento-importacao table tr td.label-conta {width: 75px;}
+
+.celula-lancamento-importacao table tr td.td-checkbox-importacao{background: #f2f2f2;}
+.celula-lancamento-importacao.checked.D table tr td.td-checkbox-importacao{background: #EBC4C4;}
+.celula-lancamento-importacao.checked.R table tr td.td-checkbox-importacao{background: #E0E0FF;}
+.celula-lancamento-importacao table tr td.td-checkbox-importacao input{margin: 0;}
+.celula-lancamento-importacao table tr td select{height: 22px; width: 130px;}
+
+.celula-lancamento-importacao table tr td.transferencia{}
+
+.celula-lancamento-importacao table tr td input{height: 20px; margin: 0; padding: 2px;}
+.celula-lancamento-importacao table tr td select{padding: 3px 3px 3px 0; border: 1px solid #ccc; height: 25px;margin: 0;font-size: 12px;}
+.celula-lancamento-importacao table tr td .autocompleteselect-input{height: 19px; width: 130px; background-position: right 4px;}
+.celula-lancamento-importacao table tr td .campo-ndocumento-importacao{width: 157px;}
+.celula-lancamento-importacao table tr td .campo-observacoes-importacao{width: 295px;}
+.celula-lancamento-importacao table tr td label{display: inline-block; margin: 0;}
+
+.celula-lancamento-importacao table .duplicidade{font-weight: bold; width: 130px; height: 16px; padding-top: 1px; display: block; color: red; font-size: 11px;}
+.celula-lancamento-importacao table .duplicidade:hover{text-decoration: underline;}
+
+.celula-lancamento-importacao label{font-size: 12px; vertical-align: middle;}
+
+.celula-lancamento-importacao td.repeticao{vertical-align: middle;}
+
+.celula-lancamento-importacao .celrepeticao {display: none; width: 430px; }
+.celula-lancamento-importacao .celrepeticao input{width: 24px; height: 14px; vertical-align:middle; margin: 0;}
+.celula-lancamento-importacao .celrepeticao select{width: 80px; height: 20px; padding: 0; vertical-align:middle; margin: 0;}
+.celula-lancamento-importacao .celrepeticao .firstspan{background:#EDF3FD; border:1px solid #DFE9FD; border-radius:3px;padding: 2px 10px; display: inline-block;}
+.celula-lancamento-importacao .celrepeticao span{font-weight: bold; font-size: 11px; margin-left: 5px;}
+
+
+#caixa-inverter-sinais{
+    background: #FFFFCD;
+    border-radius: 3px;
+    padding: 3px;
+    margin-top: 5px;
+}
+#caixa-inverter-sinais > input{
+    margin: 0 2px 0 0;
+    vertical-align: middle;
+}
+#caixa-inverter-sinais > label{
+    margin: 0;
+    vertical-align: middle;
+}
+.celula-lancamento-importacao  .input-append{
+    margin-bottom:  0;
+}
+.celula-lancamento-importacao .add-link-img{
+    padding: 0 8px;
+    height: 25px;
+}
+
+.celula-lancamento-importacao .importacao-detalhes-grupo{
+    display: none;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+#importacao-detalhar-grupo td{
+    padding: 2px 3px;
+}
+#importacao-detalhar-grupo input,#importacao-detalhar-grupo select{
+    font-size: 11px;
+    padding: 1px 2px;
+    height: 20px
+}
+#importacao-detalhar-grupo .campo-valor{
+    width: 70px;
+}
+#importacao-detalhar-grupo input[type='radio']{
+    vertical-align: top;
+}
+#importacao-detalhar-grupo .campo-descricao,
+#importacao-detalhar-grupo .autocompleteselect-input{
+    width: 120px;
+}
+#importacao-detalhar-grupo .autocompleteselect-input{
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+    background-position: right 3px;
+}
+#importacao-detalhar-grupo .linha-template{display: none;}
+#importacao-detalhar-grupo .linha-saldo td{
+    border-top: 1px solid #eee;
+    padding-top: 5px;
+}
+#importacao-detalhar-grupo .dados-saldo{
+    font-size: 14px;
+    font-weight: bold;
+}
+#importacao-detalhar-grupo .remove{
+    display: none;
+}
+
+#importacao-detalhar-grupo .add-link-img{
+    border-radius: 0 3px 3px 0;
+    padding: 1px 5px;
+}

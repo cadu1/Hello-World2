@@ -1,0 +1,196 @@
+*{
+    /*border: 1px solid #ccc;*/
+}
+
+body{
+    font: 11px Arial, serif;
+    line-height: 1.3;
+}
+.navbar,#sidebar,button,.col-actions,#right-panel-toggle,#right-panel-config,.detailed,.checkbox-lanc,.fechamento,.agenda-header,.qtip,.filter-data{
+    display: none !important;
+}
+#print-header{
+    margin-bottom: 30px;
+}
+#print-footer{
+    font-size: 10px;
+    margin-top: 30px;
+    /*border: 1px solid red;*/
+}
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+.table th{
+    font-weight: normal;
+    font-size: 11px;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 5px 2px;
+}
+.table td{font-size: 11px; padding: 3px 2px;   }
+.table .col-valor{ text-align: right; }
+.table .col-data{ text-align: center; width: 60px; }
+.table .col-descricao{ text-align: left;}
+.table .col-status {width: 10px;}
+.table .right {text-align: right;}
+
+.saldo_positivo{ color: #009 !important }
+.saldo_negativo{ color: #D00 !important }
+.saldo_zerado  { color: #333 !important }
+
+.badge{-webkit-border-radius: 9px;-moz-border-radius: 9px;border-radius: 9px;}
+.badge.badge-status{padding: 1px 5px; font-size: 9px;line-height: 13px; color: #fff;font-weight: bold;}
+.badge.Pendente{ background-color: #AA4643; }
+.badge.Agendado{ background-color: #4572A7; }
+.badge.Confirmado{ background-color: #090; }
+.badge.Conciliado{ background-color: #9B23CA; }
+.badge.Aberta{ background-color: #44CDD3; }
+.badge.Fechada{ background-color: #333; }
+
+/*CARTAO DE CREDITO*/
+
+.fatura-linha-plastico td{
+    background: #f8f8f8;
+    text-align: center;
+    font-weight: bold;
+}
+#info-fatura-print{
+    font-size: 14px;
+    padding: 5px;
+}
+#right-panel{position: relative;}
+.resumo-fatura table{position: absolute;top: 24px;width: 343px;border-spacing: 0;}
+.resumo-fatura table th{background-color: #f2f2f2;padding: 5px;}
+.resumo-fatura table td{padding: 3px 0;}
+.table_info_fatura { left:0; }
+.table_totais_fatura{ left: 343px; }
+.table_parciais_fatura{ left: 686px; }
+
+/*CARTAO DE CREDITO*/
+
+/*RELATORIOS*/
+#relatorio-header button,.filter-buttons,#select_regime,.active-filter-group{
+ display: none;   
+}
+#relatorio-header .relatorio-nome {font-size: 18px;font-weight: bold;font-family: Arial;color: #555; margin-right: 5px; }
+.relatorio-data{border: none; font-size: 14px;width:80px;}
+
+.active-filter-group > div {display: inline-block; }
+
+.label{
+display: inline-block;
+padding: 2px 4px;
+font-size: 11px;
+line-height: 14px;
+color: #FFF;
+white-space: nowrap;
+vertical-align: baseline;
+background-color: #999;
+}
+.active-filter-group-label {
+font-weight: bold;
+font-size: 11px;
+padding-right: 3px;
+min-width: 100px;
+text-align: right;
+}
+.active-filter {
+margin-right: 3px;
+}
+.label-info, .badge-info {
+background-color: #3A87AD;
+}
+
+/*EVOLUCAO POR CATEGORIA*/
+.relatorio-evolucao-cat{
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.relatorio-evolucao-cat th{
+    font-weight: bold;
+}
+.relatorio-evolucao-cat td{
+    border: 1px solid #f8f8f8;
+    padding: 5px;
+}
+/*EVOLUCAO POR CATEGORIA*/
+
+/*LANCAMENTOS POR...*/
+.linha_totais_grupo td{
+    text-align: right;
+    background: #f8f8f8;
+    font-size:11px !important;
+}
+
+
+#center-panel,#relatorio-header{
+    min-height: 0 !important;
+    height: auto !important;
+}
+
+#right-panel,#right-panel *{
+    height: auto !important;
+    min-height: 0;
+}
+#right-panel{
+    min-height: 200px;
+}
+
+#soma_grupos{
+    display: block;
+    background: #f8f8f8;
+    text-align: right;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+#soma_grupos  .rodape_grupos_relatorios{
+    text-align: center;
+    font-weight: bold;
+}
+/*LANCAMENTOS POR...*/
+
+/*TOTAIS POR...*/
+.relatorio-totais-dados{overflow: visible !important; display: block; height: auto !important;}
+.relatorio-totais-dados > .jspContainer{overflow: visible !important; height: auto !important; display: block; }
+/*.relatorio-totais-box-total{page-break-after:always;}*/
+.relatorio-totais-box-total{margin-bottom: 20px;}
+.relatorio-totais-box-title{background: #f8f8f8; text-align: center; padding: 5px; font-size: 14px;}
+.relatorio-totais-box-title span{float:right;}
+.quadro-detalhamento ul{ list-style-type: none;}
+.quadro-detalhamento ul{ margin: 0; padding: 0; }
+.quadro-detalhamento li table {
+width: 100%;
+border-spacing: 0;
+}
+.quadro-detalhamento tr.header td {font-weight: bold;color: #555;border-bottom: 1px solid #ccc;}
+.quadro-detalhamento .coluna-quantidade, .quadro-detalhamento .coluna-porcentagem {width: 60px;text-align: center;}
+.quadro-detalhamento .coluna-valor {text-align: right;width: 80px;}
+
+.quadro-detalhamento .linha-lancamento td {
+font-size: 11px;
+font-style: italic;
+}
+
+.quadro-detalhamento .linha-subcategoria .coluna-nome, .quadro-detalhamento .linha-lancamento .coluna-nome {
+padding-left: 20px;
+}
+
+.quadro-detalhamento .linha-lancamento .nome-subcat{
+    padding-left: 40px !important;
+}
+/*TOTAIS POR...*/
+
+/*RELATORIOS*/
+.project-tag {
+    padding: 2px;
+    font-size: 10px;
+    margin-right: 2px;
+    border-radius: 2px;
+    background: #ccc;
+}
+
+/*CONTATOS*/
+.header-contatos{ display: none; }
+.table-contatos {border-collapse: collapse;}
+.table-contatos th{ font-weight: bold;text-align: left;}
+.table-contatos td{ border-bottom: 1px solid #eee; font-size: 10px;}

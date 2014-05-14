@@ -1,0 +1,133 @@
+/*CABECALHO DA AGENDA*/
+.descPeriodo{width: 130px;}
+
+.escolha-periodo{
+    position: absolute;
+    border: 1px solid red;
+    background: #fff;
+    padding: 5px;
+    width: 80px;
+}
+.escolha-periodo select{
+    
+}
+.novo-lancamento-dropdown a{
+    font-size: 12px;
+    padding: 2px 10px !important;
+}
+.novo-lancamento-dropdown li.divider{
+    margin: 1px;
+}
+.novo-lancamento-dropdown i{
+    margin-right: 5px;
+    font-size:14px;
+}
+.btn-novo-lancamento.despesa{ color: #C4151C; }
+.btn-novo-lancamento.receita{ color: #43559E; }
+
+.novo-lancamento-dropdown .dropdown-submenu>a:after{
+    border-left-color: #5F5F5F;
+    margin-right: -3px;
+}
+
+/*FILTROS*/
+.filter-list .badge-status{ margin-right: 5px; }
+
+/* CONTEUDO DA AGENDA */
+
+
+
+
+/*CARTOES DE CREDITO*/
+
+.table tr.fatura-linha-plastico td{
+    /*background: #f2f2f2;*/
+    /*padding-left: 10px;*/
+    text-align: center;
+}
+.table tr.fatura-linha-plastico:hover td{
+    background: #f2f2f2 ;
+}
+.table tr.fatura-linha-plastico td span{
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.table tr.fatura-linha-plastico td span:hover{text-decoration: underline;}
+
+.parcelahidden{ display: none; }
+
+.resumo-rodape  table{  width: 100%;}
+.resumo-rodape  table th{ font-size: 13px; text-align: left;border-bottom: 1px solid #e8e8e8;}
+.resumo-rodape  table td{ font-size: 11px;padding: 0;}
+.resumo-rodape  table .label_rodape{ font-size: 11px; }
+.resumo-rodape  table .dados_rodape{ font-size: 11px; text-align: right;}
+
+.panel-resumo .panel-resumo-title{font-size: 13px; text-align: left;border-bottom: 1px solid #e8e8e8; cursor: pointer;display: block;font-weight: bold;}
+.panel-resumo .panel-resumo-title:hover{ text-decoration: underline; }
+.panel-resumo .icon-caret-down{display: none;}
+.panel-resumo.closed table,
+.panel-resumo.closed .icon-caret-up{ display: none; }
+.panel-resumo.closed .icon-caret-down{display: inline-block;}
+
+
+#busca-header{
+    margin: 10px auto 0 auto;
+    max-width: 390px;
+    position: relative;
+    height: 30px;
+}
+#busca-header.empty{
+    /*margin: 100px auto 0 auto;*/
+}
+#main-search{
+    margin: 0;
+    position: absolute;
+}
+
+#advanced-search{
+    padding: 10px 0 0 0 ;
+    border: 1px solid #CCC;
+    border-radius: 0 0 5px 5px;
+    border-top: none;
+    box-shadow: 0 0 3px #CCC;
+    background: #fff;
+    position: absolute;
+    width: 387px;
+    top: 30px;
+    display: none;
+}
+#advanced-search{list-style-type: none;margin: 0;}
+#advanced-search li{ padding: 3px 2px;}
+#advanced-search .search-label{text-align: right; font-weight: bold;padding: 10px; width: 100px; font-size: 12px; display: inline-block;}
+#advanced-search .search-data{display: inline-block; vertical-align: middle;}
+#advanced-search .search-data input {margin:0;}
+#advanced-search  .multipleselect-dest{line-height: 30px;display: block;}
+#advanced-search .search-date{width: 84px;}
+
+.ajuda-busca{
+    width: 370px;
+    /*border: 1px solid #eee;*/
+    /*background: #fbfbfb;*/
+    /*border-radius: 5px;*/
+    margin: 10px auto;
+    padding: 10px;
+    text-align: justify;
+    
+}
+
+
+/*.jspContainer .jspVerticalBar{display: none}*/
+/*.jspContainer:hover .jspVerticalBar{display: block;}*/
+
+.checkbox-fechamento{margin: 0 !important;}
+.fechamento{display: none;}
+
+.table tr.checked td{background: #FFFFC7;}
+.table tr.checked:hover td{background: #FFFFC7;}
+
+.span-cadastro-lancamento-grupo{
+    cursor: default;
+    margin: 0;
+    text-decoration: underline;
+}
