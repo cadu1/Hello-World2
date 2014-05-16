@@ -209,7 +209,7 @@ var editar = fn.editar = function(codigo,salvarCb,cancelarCb){
                 if(key in cache){
                     __marca_disponibilidade_regra(cache[key]);
                 }else{
-                    disp.html("<img src='visao/img/uploading.gif' style='vertical-align:middle;'>");
+                    disp.html("<img src='img/uploading.gif' style='vertical-align:middle;'>");
                     verifica_disponibilidade(nome,tipo,function(r){
                         cache[key] = r;
                         __marca_disponibilidade_regra(r);
@@ -342,7 +342,7 @@ var autocomplete = fn.autocomplete = function(getype,onselect,novo){
                 else
                 {
                     element.addClass("loading");
-                    lastXhr = $.getJSON("visao/php/meudinheiro/carregar_regras.php",
+                    lastXhr = $.getJSON("php/carregar_regras.php",
                     {
                         nome:nome,
                         tipo: tipo

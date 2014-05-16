@@ -12,7 +12,7 @@ var idTimeout = null;
 function obtemUrlAjax(aplicativo)
 {
     if(aplicativo.length>0){
-        return "./visao/php/"+aplicativo+"/Ajax.php?";
+        return "./php/"+aplicativo+"/Ajax.php?";
     }
     return null;
 }

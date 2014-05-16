@@ -2,7 +2,7 @@
 
     $(function(){
 
-        $.post("visao/php/meudinheiro/botao_versoes_pagamento_pague_seguro.php",{aplicativo:"MEUDINHEIRO"},function(retorno){
+        $.post("php/botao_versoes_pagamento_pague_seguro.php",{aplicativo:"MEUDINHEIRO"},function(retorno){
             $("#precos-tabela").html(retorno);
         });
 
@@ -35,7 +35,7 @@
          });
 
          $(".testar-gratis").click(function(){
-             jAjax("Termos de uso do Meu Dinheiro Premium","visao/php/meudinheiro/alert_aviso_premium.php");
+             jAjax("Termos de uso do Meu Dinheiro Premium","php/alert_aviso_premium.php");
          });
     });    
 })();

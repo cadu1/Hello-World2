@@ -113,7 +113,7 @@
 
 
 .quadro-detalhamento ul li.loading{
-    background: url(../../../visao/img/uploading.gif) rgb(251, 252, 245) center center no-repeat ;
+    background: url(../../../img/uploading.gif) rgb(251, 252, 245) center center no-repeat ;
     height: 20px;
 }
 

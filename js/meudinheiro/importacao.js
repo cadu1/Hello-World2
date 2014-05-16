@@ -22,7 +22,7 @@ var escolhaModo = fn.escolhaModo = function(config,title,conta){
                     create : function(){ d.center(); }
                 });
                 /*Se o usuario puder importar o extrato, cria os eventos*/
-                _upload_file('./visao/php/meudinheiro/upload_lancamentos.php',['ofx','ofc','xls','xlsx','csv','txt'],
+                _upload_file('./php/upload_lancamentos.php',['ofx','ofc','xls','xlsx','csv','txt'],
                  function(id, file_name, json){
                     /*Existe erro no arquivo*/
                     if(json.conteudo.error){
@@ -39,7 +39,7 @@ var escolhaModo = fn.escolhaModo = function(config,title,conta){
                     return true;
                 },'upload_lancamentos');
 
-                _upload_file('./visao/php/meudinheiro/upload_extrato.php',['ofx','ofc'],
+                _upload_file('./php/upload_extrato.php',['ofx','ofc'],
                  function(id, file_name, json){
                     /*Existe erro no arquivo*/
                     if(json.conteudo.error){
@@ -456,7 +456,7 @@ var importacaoLancamentos = fn.importacaoLancamentos = function(lancamentos,cont
 //                $(this).preview({
 //                    position : "right center",
 //                    ajax : {
-//                        url : "visao/php/meudinheiro/carregar_lancamento_tooltip.php",
+//                        url : "php/carregar_lancamento_tooltip.php",
 //                        type : "POST",
 //                        data : {p1 : codigo},
 //                        dataType : 'json',
@@ -800,7 +800,7 @@ function edicaoLote()
 //function botao_importar_lancamentos(conta)
 //{
 //    $(".importar-lancamentos").click(function(){
-//        jAjax("Importar lançamentos","visao/php/meudinheiro/alert_importar_lancamentos.php",{p1:conta});
+//        jAjax("Importar lançamentos","php/alert_importar_lancamentos.php",{p1:conta});
 //    })
 //}
 
@@ -823,7 +823,7 @@ function edicaoLote()
 //    
 //    /*Se o usuario puder importar o extrato, cria os eventos*/
 //    if($("#upload_extrato")[0]) tratar_tela_importacao_extrato();
-//    upload_file('./visao/php/meudinheiro/upload_lancamentos.php',['ofx','ofc','xls','xlsx','csv','txt'],
+//    upload_file('./php/upload_lancamentos.php',['ofx','ofc','xls','xlsx','csv','txt'],
 //     function(id, file_name, json){
 //        /*Existe erro no arquivo*/
 //        if(json.conteudo.error){
@@ -848,7 +848,7 @@ function edicaoLote()
 //
 //function tratar_tela_importacao_extrato()
 //{
-//    upload_file('./visao/php/meudinheiro/upload_extrato.php',['ofx','ofc'],
+//    upload_file('./php/upload_extrato.php',['ofx','ofc'],
 //     function(id, file_name, json){
 //        /*Existe erro no arquivo*/
 //        if(json.conteudo.error){

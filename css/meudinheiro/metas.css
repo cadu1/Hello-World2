@@ -130,7 +130,7 @@ td .meta-parc-bar{
     color: #000;
     line-height: 16px;
     font-weight: bold;
-    background: url('../../../visao/img/metas-bars.png?v=2') no-repeat;
+    background: url('../../../img/metas-bars.png?v=2') no-repeat;
 }
 td .meta-parc-bar.smaller{
     

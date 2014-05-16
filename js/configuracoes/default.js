@@ -310,7 +310,7 @@ function salvar_configuracoes_usuario(p0,usuario,fn)
 
 function alerta_tipo_pessoa_nao_setado()
 {
-    jAjax("Definição do perfil de utilização","visao/php/configuracoes/alert_setar_tipo_pessoa.php");
+    jAjax("Definição do perfil de utilização","php/configuracoes/alert_setar_tipo_pessoa.php");
 }
 
 function tratar_tela_setar_tipo_usuario()
@@ -365,7 +365,7 @@ function alert_aviso_vencimento(vencimento)
 
 function alert_primeira_utilizacao_incorporativa()
 {
-    jAjax("Bem vindo, usuário Incorporativa","visao/php/meudinheiro/alert_aviso_premium.php",{p1:1});
+    jAjax("Bem vindo, usuário Incorporativa","php/alert_aviso_premium.php",{p1:1});
 }
 
 function alert_primeira_utilizacao_demo()
@@ -374,7 +374,7 @@ function alert_primeira_utilizacao_demo()
         title : 'Bem vindo ao Meu Dinheiro',
         showButtons : false,
         ajax : function(){
-            $.post('visao/php/meudinheiro/alert_aviso_primeira_utilizacao_demo.php',function(r){
+            $.post('php/alert_aviso_primeira_utilizacao_demo.php',function(r){
                 d.html(r).showButtons();
                 
                 $("#irpbasica").click(function(){

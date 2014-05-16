@@ -626,7 +626,7 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-widget-content {
 	border: 1px solid #eeeeee;
-	background: #ffffff url(../../../visao/css/1libs/images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
+	background: #ffffff url(../../../css/1libs/images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
 	color: #333333;
 }
 .ui-widget-content a {
@@ -634,7 +634,7 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-widget-header {
 	border: 1px solid #e3a1a1;
-	background: #cc0000 url(../../../visao/css/1libs/images/ui-bg_highlight-soft_15_cc0000_1x100.png) 50% 50% repeat-x;
+	background: #cc0000 url(../../../css/1libs/images/ui-bg_highlight-soft_15_cc0000_1x100.png) 50% 50% repeat-x;
 	color: #ffffff;
 	font-weight: bold;
 }
@@ -648,7 +648,7 @@ button.ui-button::-moz-focus-inner {
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
 	border: 1px solid #d8dcdf;
-	background: #eeeeee url(../../../visao/css/1libs/images/ui-bg_highlight-hard_100_eeeeee_1x100.png) 50% 50% repeat-x;
+	background: #eeeeee url(../../../css/1libs/images/ui-bg_highlight-hard_100_eeeeee_1x100.png) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #004276;
 }
@@ -665,7 +665,7 @@ button.ui-button::-moz-focus-inner {
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
 	border: 1px solid #cdd5da;
-	background: #f6f6f6 url(../../../visao/css/1libs/images/ui-bg_highlight-hard_100_f6f6f6_1x100.png) 50% 50% repeat-x;
+	background: #f6f6f6 url(../../../css/1libs/images/ui-bg_highlight-hard_100_f6f6f6_1x100.png) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #111111;
 }
@@ -680,7 +680,7 @@ button.ui-button::-moz-focus-inner {
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
 	border: 1px solid #eeeeee;
-	background: #ffffff url(../../../visao/css/1libs/images/ui-bg_flat_65_ffffff_40x100.png) 50% 50% repeat-x;
+	background: #ffffff url(../../../css/1libs/images/ui-bg_flat_65_ffffff_40x100.png) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #cc0000;
 }
@@ -697,7 +697,7 @@ button.ui-button::-moz-focus-inner {
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
 	border: 1px solid #fcd3a1;
-	background: #fbf8ee url(../../../visao/css/1libs/images/ui-bg_glass_55_fbf8ee_1x400.png) 50% 50% repeat-x;
+	background: #fbf8ee url(../../../css/1libs/images/ui-bg_glass_55_fbf8ee_1x400.png) 50% 50% repeat-x;
 	color: #444444;
 }
 .ui-state-highlight a,
@@ -709,7 +709,7 @@ button.ui-button::-moz-focus-inner {
 .ui-widget-content .ui-state-error,
 .ui-widget-header .ui-state-error {
 	border: 1px solid #cc0000;
-	background: #f3d8d8 url(../../../visao/css/1libs/images/ui-bg_diagonals-thick_75_f3d8d8_40x40.png) 50% 50% repeat;
+	background: #f3d8d8 url(../../../css/1libs/images/ui-bg_diagonals-thick_75_f3d8d8_40x40.png) 50% 50% repeat;
 	color: #2e2e2e;
 }
 .ui-state-error a,
@@ -755,27 +755,27 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-icon,
 .ui-widget-content .ui-icon {
-	background-image: url(../../../visao/css/1libs/images/ui-icons_cc0000_256x240.png);
+	background-image: url(../../../css/1libs/images/ui-icons_cc0000_256x240.png);
 }
 .ui-widget-header .ui-icon {
-	background-image: url(../../../visao/css/1libs/images/ui-icons_ffffff_256x240.png);
+	background-image: url(../../../css/1libs/images/ui-icons_ffffff_256x240.png);
 }
 .ui-state-default .ui-icon {
-	background-image: url(../../../visao/css/1libs/images/ui-icons_cc0000_256x240.png);
+	background-image: url(../../../css/1libs/images/ui-icons_cc0000_256x240.png);
 }
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon {
-	background-image: url(../../../visao/css/1libs/images/ui-icons_cc0000_256x240.png);
+	background-image: url(../../../css/1libs/images/ui-icons_cc0000_256x240.png);
 }
 .ui-state-active .ui-icon {
-	background-image: url(../../../visao/css/1libs/images/ui-icons_cc0000_256x240.png);
+	background-image: url(../../../css/1libs/images/ui-icons_cc0000_256x240.png);
 }
 .ui-state-highlight .ui-icon {
-	background-image: url(../../../visao/css/1libs/images/ui-icons_004276_256x240.png);
+	background-image: url(../../../css/1libs/images/ui-icons_004276_256x240.png);
 }
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-	background-image: url(../../../visao/css/1libs/images/ui-icons_cc0000_256x240.png);
+	background-image: url(../../../css/1libs/images/ui-icons_cc0000_256x240.png);
 }
 
 /* positioning */
@@ -988,14 +988,14 @@ button.ui-button::-moz-focus-inner {
 
 /* Overlays */
 .ui-widget-overlay {
-	background: #a6a6a6 url(../../../visao/css/1libs/images/ui-bg_dots-small_65_a6a6a6_2x2.png) 50% 50% repeat;
+	background: #a6a6a6 url(../../../css/1libs/images/ui-bg_dots-small_65_a6a6a6_2x2.png) 50% 50% repeat;
 	opacity: .4;
 	filter: Alpha(Opacity=40);
 }
 .ui-widget-shadow {
 	margin: -8px 0 0 -8px;
 	padding: 8px;
-	background: #333333 url(../../../visao/css/1libs/images/ui-bg_flat_0_333333_40x100.png) 50% 50% repeat-x;
+	background: #333333 url(../../../css/1libs/images/ui-bg_flat_0_333333_40x100.png) 50% 50% repeat-x;
 	opacity: .1;
 	filter: Alpha(Opacity=10);
 	border-radius: 8px;

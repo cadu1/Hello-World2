@@ -9,7 +9,7 @@
         originalText = loginButton.html();
         
         var form   = $('#login-form').form({
-            action : 'visao/php/easyme/autenticacaoEasyme.php',
+            action : 'php/easyme/autenticacaoEasyme.php',
             events : {
                 submit : function(){
                     er.hide();
@@ -29,7 +29,7 @@
                                 
                             if(r.login == 'AUTENTICADO'){
                                 /*Carrega configuracoes do usuario*/
-                                location.href = 'visao/php/easyme/carregarConfiguracoes';
+                                location.href = 'php/easyme/carregarConfiguracoes';
                                 return true;
                             }
                                 
@@ -56,10 +56,10 @@
           
           
         $("#prev-google").click(function(){
-            window.open('https://accounts.google.com/o/oauth2/auth?client_id=507482723610.apps.googleusercontent.com&redirect_uri=http://www.meudinheiroweb.com.br/visao/php/easyme/autenticacaoGoogle.php&response_type=code&approval_prompt=force&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&access_type=offline','Login','toolbar=no,location=no, directories=no,status=no,menubar=no,scrollbars=no,resizable=no,menubar=no,width=685,height=520');
+            window.open('https://accounts.google.com/o/oauth2/auth?client_id=507482723610.apps.googleusercontent.com&redirect_uri=http://www.meudinheiroweb.com.br/php/easyme/autenticacaoGoogle.php&response_type=code&approval_prompt=force&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&access_type=offline','Login','toolbar=no,location=no, directories=no,status=no,menubar=no,scrollbars=no,resizable=no,menubar=no,width=685,height=520');
         });
         $("#prev-face").click(function(){
-            window.open('./visao/php/easyme/autenticacaoFacebook','Login','toolbar=no,location=no, directories=no,status=no,menubar=no,scrollbars=no,resizable=no,menubar=no,width=685,height=520');
+            window.open('./php/easyme/autenticacaoFacebook','Login','toolbar=no,location=no, directories=no,status=no,menubar=no,scrollbars=no,resizable=no,menubar=no,width=685,height=520');
         });
         
         var info_panel = $("#info-panel"),
@@ -106,7 +106,7 @@ var jc = $(".jcarousel");
 
 
 //function twitter_login(){
-//    window.open('./visao/php/easyme/solicitaTokenTwitter','Login','toolbar=no,location=no, directories=no,status=no,menubar=no,scrollbars=no,resizable=no,menubar=no,width=560,height=410' );
+//    window.open('./php/easyme/solicitaTokenTwitter','Login','toolbar=no,location=no, directories=no,status=no,menubar=no,scrollbars=no,resizable=no,menubar=no,width=560,height=410' );
 //}
 //function autenticacaoUsuario(origem_login){
 //

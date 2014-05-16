@@ -343,7 +343,7 @@ var categorias = fn.categorias = function(){
     });
     
 //    if(janelaCategorias) janelaCategorias.close();
-//    janelaCategorias = jAjax(,"visao/php/contatos/alert_gerenciar_categorias.php");
+//    janelaCategorias = jAjax(,"php/contatos/alert_gerenciar_categorias.php");
 }
 
 var editarCategoria = fn.editarCategoria = function(codigo,nome,salvarCb){
@@ -603,7 +603,7 @@ var busca = (function(){
 //
 //    $(".excluir").click(function(){
 //         var codigo_contato = $(this).parents("tr").attr("cod");
-//         jAjax("Excluir contato", "visao/php/contatos/alert_exclusao_contatos.php", {p1:codigo_contato,p2:0});     
+//         jAjax("Excluir contato", "php/contatos/alert_exclusao_contatos.php", {p1:codigo_contato,p2:0});     
 //    });
 //
 //}
@@ -1202,7 +1202,7 @@ function atribui_evento_cnpj(id_campo_cpnj)
 // */
 //function editar_contato_novo_lancamento(codigo,trigger)
 //{
-//    jAjax("Editar contato","visao/php/contatos/alert_editar_contato.php",{
+//    jAjax("Editar contato","php/contatos/alert_editar_contato.php",{
 //        p1 : codigo
 //    });
 //    $(window).one("edicao_contato",function(){
@@ -1212,7 +1212,7 @@ function atribui_evento_cnpj(id_campo_cpnj)
 //
 //function pagina_edicao_contato(codigo)
 //{    
-//    jAjax("Editar contato","visao/php/contatos/alert_editar_contato.php",{
+//    jAjax("Editar contato","php/contatos/alert_editar_contato.php",{
 //        p1 : codigo,
 //        p2 : 1 /*Deixar no minimo um campo alem de 'p1' para operacoes de autocomplete*/
 //    });

@@ -385,7 +385,7 @@ function upload_imagem_juridica()
     var uploader = new qq.FileUploader({
         
         element: document.getElementById('upload_extrato'),
-        action: './visao/php/easyme/fileuploader.php',
+        action: './php/easyme/fileuploader.php',
         multiple: false,
         allowedExtensions: ['jpg','jpeg','png','gif'],
         sizeLimit: 1000*1024,

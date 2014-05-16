@@ -93,10 +93,10 @@ function ControladorAutenticacaoContinuarConectado()
         function(retorno){
 
             if(retorno == "CONTINUAR_CONECTADO"){
-                document.getElementById("form_autenticacao_usuario").action = "./visao/php/easyme/autenticacaoEasyme?continuar_conectado=true&origem_login="+origem_login;
+                document.getElementById("form_autenticacao_usuario").action = "./php/easyme/autenticacaoEasyme?continuar_conectado=true&origem_login="+origem_login;
             }
             else{
-                document.getElementById("form_autenticacao_usuario").action = "./visao/php/easyme/autenticacaoEasyme?origem_login="+origem_login;
+                document.getElementById("form_autenticacao_usuario").action = "./php/easyme/autenticacaoEasyme?origem_login="+origem_login;
             }
             document.forms["form_autenticacao_usuario"].submit();
         }
@@ -136,7 +136,7 @@ function ControladorAutenticacaoVerificarCookieContinuarConectado()
         function(aplicativo){
             if(aplicativo != "EASYME_CONEXAO_INVALIDA"){
 //                location.href = "./"+aplicativo;
-                location.href = "./visao/php/easyme/carregarConfiguracoes.php";
+                location.href = "./php/easyme/carregarConfiguracoes.php";
             }
         }
     );

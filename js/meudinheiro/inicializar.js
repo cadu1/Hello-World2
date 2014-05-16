@@ -21,7 +21,7 @@ window.MD = {};
     /*Monitorar o login*/
     (function loginStatusMonitor(){
         var h = setInterval(function(){
-            $.post('visao/php/easyme/_update_status_login.php',{a:'nz68besd'},function(r){
+            $.post('php/easyme/_update_status_login.php',{a:'nz68besd'},function(r){
                 /*Se deu algum erro, para de executar a rotina*/
                 r == 1 || clearInterval(h);
             });
@@ -439,35 +439,35 @@ function inicializar_busca_lancamentos()
         });
 
 
-        categories_search.tokenInput("visao/php/meudinheiro/carregar_categorias_tokeninput.php", {
+        categories_search.tokenInput("php/carregar_categorias_tokeninput.php", {
             theme: "facebook",
             hintText : "Digite uma categoria",
             noResultsText : "Não foram encontradas categorias",
             searchingText : "Buscando categorias..."
         });
 
-        accounts_search.tokenInput("visao/php/meudinheiro/carregar_contas_tokeninput.php", {
+        accounts_search.tokenInput("php/carregar_contas_tokeninput.php", {
             theme: "facebook",
             hintText : "Digite uma conta",
             noResultsText : "Não foram encontradas contas",
             searchingText : "Buscando contas..."
         });
 
-        centers_search.tokenInput("visao/php/meudinheiro/carregar_centros_tokeninput.php", {
+        centers_search.tokenInput("php/carregar_centros_tokeninput.php", {
             theme: "facebook",
             hintText : "Digite um centro",
             noResultsText : "Não foram encontrados centros",
             searchingText : "Buscando centros..."
         });
 
-        contacts_search.tokenInput("visao/php/meudinheiro/carregar_contatos_tokeninput.php", {
+        contacts_search.tokenInput("php/carregar_contatos_tokeninput.php", {
             theme: "facebook",
             hintText : "Digite um contato",
             noResultsText : "Não foram encontrados contatos",
             searchingText : "Buscando contatos..."
         });
         
-        forms_search.tokenInput("visao/php/meudinheiro/carregar_formaspgto_tokeninput.php", {
+        forms_search.tokenInput("php/carregar_formaspgto_tokeninput.php", {
             theme: "facebook",
             hintText : "Digite uma forma de pagamento",
             noResultsText : "Não foram encontrados formas de pagto.",

@@ -30,7 +30,7 @@
 function ControladorMeuDinheiro()
 {
     var callback = arguments[arguments.length-1];
-    var url = obtemUrlAjax("meudinheiro");
+    var url = obtemUrlAjax("mymoney");
     var args = arguments;
 
     var that = this;
@@ -43,7 +43,7 @@ function ControladorMeuDinheiro()
 function ControladorMeuDinheiroSync()
 {
     var callback = arguments[arguments.length-1];
-    var url = obtemUrlAjax("meudinheiro");
+    var url = obtemUrlAjax("mymoney");
     var args = arguments;
 
     var that = this;

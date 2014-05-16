@@ -9,7 +9,7 @@ $(function(){
             return;
         }
         
-        $.post('visao/php/easyme/salvarDepoimento.php',{depo:depo},function(r){
+        $.post('php/easyme/salvarDepoimento.php',{depo:depo},function(r){
             if(r != '0' && r != '-1'){
                 alert('Depoimento salvo com sucesso.')
                 $("#make-depo-date").html("Última edição em: " + r);

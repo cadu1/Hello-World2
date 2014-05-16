@@ -1,7 +1,7 @@
 (function(window,$){
 
 var iniciar = function(){
-    $.post('visao/php/faq/iniciar.php',function(r){
+    $.post('php/faq/iniciar.php',function(r){
         r = $.parseJSON(r);
         $("#asks,#navbar-ajuda").html('');
         criarListaCategorias(r.cats);
@@ -11,7 +11,7 @@ var iniciar = function(){
 }
 
 var resposta = function(id,cb){
-    $.post('visao/php/faq/resposta.php',{id:id},function(r){
+    $.post('php/faq/resposta.php',{id:id},function(r){
         cb($.parseJSON(r));
     })
 }
@@ -33,7 +33,7 @@ function criarListaPerguntas(asks){
     $('a.ask').click(function(){
         var ask = $(this).closest('div.ask'),
         id = $(this).attr('cod'),
-        loading = $('<img src="visao/img/load.gif" width="20px" class="loading">');
+        loading = $('<img src="img/load.gif" width="20px" class="loading">');
         /*Conteudo esta sendo carregado.. aguarde!!*/
         if(ask.find('.loading')[0]) return;
         if(!ask.find('.answer')[0]){
@@ -141,14 +141,14 @@ $(iniciar);
 //});
 //
 //function carregar_resposta_duvida(id,cb){
-//    $.post("visao/php/easyme/faq.php",{"id":id},function(r){
+//    $.post("php/easyme/faq.php",{"id":id},function(r){
 //        cb(r);
 //    });
 //}
 //
 //function exibe_carregando(dest)
 //{
-//    var c = "<div style='text-align:center;padding: 5px 0;'><img src='visao/img/load.gif' /></div>";
+//    var c = "<div style='text-align:center;padding: 5px 0;'><img src='img/load.gif' /></div>";
 //    $(dest).html(c);
 //}
 //

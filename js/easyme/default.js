@@ -67,7 +67,7 @@
 //        $("<div id='exibe_todas_info'><a href='javascript: void(0);'>Exibir todas</a></div>").
 //            insertAfter("#fechar_outras_info").click(function(){
 //            $("#fechar_outras_info a").click();
-//            jAjax("Lembretes Easyme","visao/php/easyme/exibeMensagensUsuario.php");
+//            jAjax("Lembretes Easyme","php/easyme/exibeMensagensUsuario.php");
 //        });
 //    }
 //    
@@ -143,7 +143,7 @@
 //
 //   ajuda.qtip({
 //        content: {
-//            text : "Para habilitar/desabilitar a ajuda, clique neste link.<BR><BR>Quando a ajuda estiver habilitada, clique nos ícones <img src='visao/img/help-icon-white-bg.png'/> para exibi-la.",
+//            text : "Para habilitar/desabilitar a ajuda, clique neste link.<BR><BR>Quando a ajuda estiver habilitada, clique nos ícones <img src='img/help-icon-white-bg.png'/> para exibi-la.",
 //            title:{
 //                text: "Como utilizar a ajuda Easyme"
 //            }
@@ -165,10 +165,10 @@
 //        ControladorEasyme("HABILITAR_AJUDA",status ? 0 : 1,function(r){
 //            var tt = $(".tooltip");
 //            if(status){
-//                tt.attr({"visible":0,src:"visao/img/blank.png"}).addClass("disabled");
+//                tt.attr({"visible":0,src:"img/blank.png"}).addClass("disabled");
 //                ajuda.removeClass("enabled");
 //             }else{
-//                tt.attr({"visible":1,src:"visao/img/help-icon-white-bg.png"}).removeClass("disabled");
+//                tt.attr({"visible":1,src:"img/help-icon-white-bg.png"}).removeClass("disabled");
 //                ajuda.addClass("enabled");
 //             }
 //        });

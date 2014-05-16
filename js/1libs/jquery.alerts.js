@@ -207,7 +207,7 @@
     /*Tornando publico*/
     window.jDialog = function(config){
         
-        if(!config.html) config.html = "<div style='text-align:center; padding-bottom: 10px;'><img src='visao/img/load.gif' width='20'/></div>";
+        if(!config.html) config.html = "<div style='text-align:center; padding-bottom: 10px;'><img src='img/load.gif' width='20'/></div>";
         
         var d = _dialog(config).open();
         
@@ -308,7 +308,7 @@
         
         var d = _dialog({
             title : title,
-            html : "<div style='text-align:center; padding-bottom: 10px;'><img src='visao/img/load.gif' width='20'/></div>"
+            html : "<div style='text-align:center; padding-bottom: 10px;'><img src='img/load.gif' width='20'/></div>"
         }),
         errort = false,
         timeout = setTimeout(function(){

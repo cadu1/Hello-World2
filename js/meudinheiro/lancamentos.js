@@ -2325,9 +2325,9 @@ var comprovante = fn.anexarComprovante = (function(){
 //
 //            span.closest('span,td').one('mouseleave', _closePreview );
 //
-//            actions.append("<td><a href='"+comprovante.webContentLink+"'><img title='Baixar comprovante' src='./visao/img/meudinheiro/download.png' /></a></td>");
-//            actions.append("<td><a href='"+comprovante.alternateLink+"' target='_blank'><img title='Visualizar comprovante' src='./visao/img/meudinheiro/eye.png' /></td>");
-//            actions.append("<td id='cancelar-anexo'><img title='Desassociar comprovante' src='./visao/img/delete.png' /></td>").find('#cancelar-anexo')
+//            actions.append("<td><a href='"+comprovante.webContentLink+"'><img title='Baixar comprovante' src='./img/meudinheiro/download.png' /></a></td>");
+//            actions.append("<td><a href='"+comprovante.alternateLink+"' target='_blank'><img title='Visualizar comprovante' src='./img/meudinheiro/eye.png' /></td>");
+//            actions.append("<td id='cancelar-anexo'><img title='Desassociar comprovante' src='./img/delete.png' /></td>").find('#cancelar-anexo')
 //            .click(function(){
 //                /*Apaga qualquer comprovante previamente anexado*/
 //                fn.codigo = undefined;

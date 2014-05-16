@@ -200,14 +200,14 @@
 }*/
 
 .autocomplete-input{
-    background: url('../../../visao/img/autocomplete-arrow-down.png?2') right 5px no-repeat #fff;
+    background: url('../../../img/autocomplete-arrow-down.png?2') right 5px no-repeat #fff;
     padding-right: 25px;
 }
 .autocomplete-input:focus{
-    background: url('../../../visao/img/autocomplete-arrow-down.png') right -18px no-repeat #fff;
+    background: url('../../../img/autocomplete-arrow-down.png') right -18px no-repeat #fff;
 }
 .autocomplete-input.loading{
-    background: url(../../../visao/img/uploading.gif) 99% center no-repeat #fff;
+    background: url(../../../img/uploading.gif) 99% center no-repeat #fff;
 }
 
 .autocomplete-wrapper{
@@ -215,14 +215,14 @@
     width: 200px;
     border: 1px solid #ccc;
     border-radius: 3px;
-/*    background: url(../../../visao/img/autocomplete-arrow-down-30x30.png) no-repeat;*/
+/*    background: url(../../../img/autocomplete-arrow-down-30x30.png) no-repeat;*/
 }
 
 .autocomplete-wrapper input{
     border: none;
     width: 160px !important;
     padding-right: 6px !important;
-    background: url(../../../visao/img/arrow_down.png) right 10px no-repeat;
+    background: url(../../../img/arrow_down.png) right 10px no-repeat;
 }
 
 .autocomplete-button{
@@ -238,11 +238,11 @@
     position:absolute;
     border: none;
     background: url(../../img/seta_baixo.png) no-repeat;
-    background: url(../../../visao/img/autocomplete-arrow-down-30x30.png) no-repeat;
+    background: url(../../../img/autocomplete-arrow-down-30x30.png) no-repeat;
 }
 .show_all_autocomplete:hover{
     background-image: url(../../img/seta_baixo_over.png);
-    background: url(../../../visao/img/autocomplete-arrow-down-30x30-hover.png) no-repeat;
+    background: url(../../../img/autocomplete-arrow-down-30x30-hover.png) no-repeat;
 }
 
 #popup_nova_conta .mais_info ,

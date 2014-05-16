@@ -6,7 +6,7 @@ $.extend($.fn,
         
         if(o.ajax){
             o.title = "Carregando...";
-            o.text  = "<img src='visao/img/uploading.gif' />";
+            o.text  = "<img src='img/uploading.gif' />";
         }
         /**
          * Descricao dos atribudos do objeto o:

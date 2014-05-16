@@ -34,7 +34,7 @@ h2{
     display: block !important;
     height: 80px;
     width: 280px;
-    background: url(../../../visao/img/logobgfixed.png) center center no-repeat;
+    background: url(../../../img/logobgfixed.png) center center no-repeat;
 }
 
 #header .navbar-inner{

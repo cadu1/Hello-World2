@@ -199,7 +199,7 @@ var iniciar = fn.iniciar = function(){
 
                         /*Prepara o novo item*/
                         var n_item = $("<div class='portlet' id='portlet-"+id+"' i='"+id+"'><div class='portlet-header'><span>"+title+"</span></div>"+
-                                    "<div class='portlet-content'><img src='visao/img/load.gif' /></div></div>");
+                                    "<div class='portlet-content'><img src='img/load.gif' /></div></div>");
 
                         /*Deleta o item que foi copiado*/
                         item.after(n_item).remove();
@@ -279,7 +279,7 @@ var carregarPaineis = fn.carregarPaineis = function(){
 };
 
 var displayLoading = function(portlet){
-    $(portlet).find(".portlet-content").css('text-align','center').html("<img src='visao/img/load.gif'>");
+    $(portlet).find(".portlet-content").css('text-align','center').html("<img src='img/load.gif'>");
 }
 
 var update = fn.update = function(){

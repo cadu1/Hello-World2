@@ -103,7 +103,7 @@ tr.separator div.sep-text{
     height: 65px;
     width: 70px;
     margin: 0 10px;
-    background: url(../../../visao/img/login-alt.png) no-repeat;
+    background: url(../../../img/login-alt.png) no-repeat;
      opacity: .85;
      cursor: pointer;
 }

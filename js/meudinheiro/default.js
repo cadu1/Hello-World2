@@ -109,7 +109,7 @@ function marcar_link_cabecalho(id)
 function display_loading_gif_ajax(dest)
 {
     
-    var c = "<div style='float=left; text-align:center;padding: 20px 0;'><img src='visao/img/load.gif' /></div>";
+    var c = "<div style='float=left; text-align:center;padding: 20px 0;'><img src='img/load.gif' /></div>";
     $(dest).html(c);
 }
 
@@ -143,7 +143,7 @@ function conteudo(conteudo,destino,cb){
 //
 //    ajuda.qtip({
 //        content: {
-//            text : "Para habilitar/desabilitar a ajuda, clique neste link.<BR><BR>Quando a ajuda estiver habilitada, clique nos ícones <img src='visao/img/help-icon-white-bg.png'/> para exibi-la.",
+//            text : "Para habilitar/desabilitar a ajuda, clique neste link.<BR><BR>Quando a ajuda estiver habilitada, clique nos ícones <img src='img/help-icon-white-bg.png'/> para exibi-la.",
 //            title:{
 //                text: "Como utilizar a ajuda Easyme"
 //            }
@@ -165,10 +165,10 @@ function conteudo(conteudo,destino,cb){
 //        ControladorConfiguracoes("HABILITAR_AJUDA",status ? 0 : 1,function(r){
 //            var tt = $(".tooltip");
 //            if(status){
-//                tt.attr({"visible":0,src:"visao/img/blank.png"}).addClass("disabled");
+//                tt.attr({"visible":0,src:"img/blank.png"}).addClass("disabled");
 //                ajuda.removeClass("enabled");
 //             }else{
-//                tt.attr({"visible":1,src:"visao/img/help-icon-white-bg.png"}).removeClass("disabled");
+//                tt.attr({"visible":1,src:"img/help-icon-white-bg.png"}).removeClass("disabled");
 //                ajuda.addClass("enabled");
 //             }
 //        });
@@ -287,12 +287,12 @@ $.extend($.fn,{
             
             $(this).qtip({
                 content: {
-                    text : "<img src='visao/img/load.gif' width='25'>",
+                    text : "<img src='img/load.gif' width='25'>",
                     title:{
                         text: null
                     },
                     ajax : {
-                        url : 'visao/php/meudinheiro/Ajax.php',
+                        url : 'php/Ajax.php',
                         type : 'POST',
                         data : data,
                         success : function(data,status){

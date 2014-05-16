@@ -55,7 +55,7 @@
     padding: 0;
     width: 230px;
     height: 106px;
-    background: url(../../../visao/img/index-logo.png) no-repeat;
+    background: url(../../../img/index-logo.png) no-repeat;
 }
 .navbar.navbar-fixed-top .navbar-inner #logo{
     width: 280px;
@@ -63,7 +63,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: url(../../../visao/img/logobgfixed.png) no-repeat;
+    background: url(../../../img/logobgfixed.png) no-repeat;
 }
 
 
@@ -252,7 +252,7 @@
     width: 137px;
     height: 37px;
     display: inline-block;
-    background: url(../../../visao/img/linksmobilesprite.jpg) no-repeat;
+    background: url(../../../img/linksmobilesprite.jpg) no-repeat;
     margin-right: 20px;
 }
 .links-mobile.iphone{

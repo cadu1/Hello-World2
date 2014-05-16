@@ -2,7 +2,7 @@
 
     $(function(){
 
-        $.post("visao/php/meudinheiro/botao_pagamento.php",{aplicativo:"MEUDINHEIRO",autorizacao:"AUTORIZADO"},function(retorno){
+        $.post("php/botao_pagamento.php",{aplicativo:"MEUDINHEIRO",autorizacao:"AUTORIZADO"},function(retorno){
             
             $('body').show();
             
@@ -40,7 +40,7 @@
             $("#confirmacao-cielo").click(function(){
                 if(_saveFields()){
                     return false;
-                    $("#form-cielo").attr("action","./visao/php/easyme/processarPagamentoCielo.php");;
+                    $("#form-cielo").attr("action","./php/easyme/processarPagamentoCielo.php");;
                     $("#form-cielo").submit();
                 }
                 return false;
@@ -83,7 +83,7 @@
             });
             
             $("#confirmar_pagamento").click(function(){
-                location.href = "visao/php/easyme/finalizandoPagamentoPagueSeguro";
+                location.href = "php/easyme/finalizandoPagamentoPagueSeguro";
             });
         });
     });  

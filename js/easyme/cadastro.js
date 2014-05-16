@@ -11,7 +11,7 @@
             originalText = signupButton .html();
         
         var form = $('#form-cadastro').form({
-            action : 'visao/php/easyme/cadastrarUsuario.php',
+            action : 'php/easyme/cadastrarUsuario.php',
             events : {
                 submit : function(e){
                     var f = this;
@@ -31,7 +31,7 @@
                                 case 'INVALIDO': alert('O endereço de email escolhido é inválido.','Endereço de email inválido'); break;
                                 case 'MAX': alert('Este endereço de email já foi utilizado mais de 1 vez. Entre em contato com o suporte','Endereço de email indisponível'); break;
                                 case 'CADASTRONAUTH'   : location.href = 'retornoValidacaoCadastro'; return true;
-                                case 'CADASTROAUTH'    : location.href = 'visao/php/easyme/carregarConfiguracoes'; return true;
+                                case 'CADASTROAUTH'    : location.href = 'php/easyme/carregarConfiguracoes'; return true;
                                 default: alert('Falha ao cadastrar. Por favor, tente novamente ou entre em contato.'); break;
                             }
                             signupButton.html(originalText).removeClass('disabled');
@@ -96,8 +96,8 @@
             },10);
         });
         
-//        var gw = function(){window.open('https://accounts.google.com/o/oauth2/auth?client_id=507482723610.apps.googleusercontent.com&redirect_uri=http://www.meudinheiroweb.com.br/visao/php/easyme/autenticacaoGoogle.php&response_type=code&approval_prompt=force&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&access_type=offline','Login','toolbar=no,location=no, directories=no,status=no,menubar=no,scrollbars=no,resizable=no,menubar=no,width=685,height=520');},
-//            fw = function(){window.open('./visao/php/easyme/autenticacaoFacebook','Login','toolbar=no,location=no, directories=no,status=no,menubar=no,scrollbars=no,resizable=no,menubar=no,width=685,height=520');};
+//        var gw = function(){window.open('https://accounts.google.com/o/oauth2/auth?client_id=507482723610.apps.googleusercontent.com&redirect_uri=http://www.meudinheiroweb.com.br/php/easyme/autenticacaoGoogle.php&response_type=code&approval_prompt=force&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&access_type=offline','Login','toolbar=no,location=no, directories=no,status=no,menubar=no,scrollbars=no,resizable=no,menubar=no,width=685,height=520');},
+//            fw = function(){window.open('./php/easyme/autenticacaoFacebook','Login','toolbar=no,location=no, directories=no,status=no,menubar=no,scrollbars=no,resizable=no,menubar=no,width=685,height=520');};
 //                
 //        var g = $("#load-google").on('click',gw),
 //            f = $("#load-fb").on('click',fw);

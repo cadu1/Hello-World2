@@ -71,7 +71,7 @@ function eventosTela(){
 
         var get = '?c=' + json(configuracoes).replace(/\"/g,'\'');
 
-        var status = $("#statusexpo").html('<img src="visao/img/uploading.gif" style="vertical-align:middle;">');
+        var status = $("#statusexpo").html('<img src="img/uploading.gif" style="vertical-align:middle;">');
 
         Ajax('QUANTIDADE_LANCAMENTOS',periodo.inicio,periodo.fim,function(r){
             
@@ -81,7 +81,7 @@ function eventosTela(){
                 
                 status.html('Exportando <b>' + r.quantidade + '</b> lançamentos. Por favor, aguarde.');
                 $("#download").html(
-                    '<iframe src="./visao/php/meudinheiro/exportarLancamentos.php'+get+'" width="0" height="0"></iframe>'
+                    '<iframe src="./php/exportarLancamentos.php'+get+'" width="0" height="0"></iframe>'
                 );    
             }else{
                 status.html('');

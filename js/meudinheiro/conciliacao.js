@@ -53,7 +53,7 @@ function eventosTela()
 //    conciliacao(extrato);
     
     $("#botao-importar-extrato").click(function(){
-//       jAjax("Importação de extrato","visao/php/meudinheiro/alert_importar_extrato.php") 
+//       jAjax("Importação de extrato","php/alert_importar_extrato.php") 
 
         MD.Importacao.escolhaModo({
             conciliacao : true,

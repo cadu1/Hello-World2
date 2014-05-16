@@ -253,8 +253,8 @@ function busca_bancos_brasil(campo)
 {
     campo = $(campo);
     var response_field = $("#info_banco_ajax");
-    response_field.html("<img src='visao/img/load.gif' width='17' />")
-    $.post("visao/php/meudinheiro/_carregar_banco_brasil.php",{codigo:campo.val()},function(r){
+    response_field.html("<img src='img/load.gif' width='17' />")
+    $.post("php/_carregar_banco_brasil.php",{codigo:campo.val()},function(r){
         if(r != "")
         {
             var banco = $.parseJSON(r);
